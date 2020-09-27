@@ -4,4 +4,6 @@
 * Naam: Mohamed Ben Hammadi
 * Vak: Basic Web Development
 * Klas: 1B TI/5
-* foto: ![alt text](foto.JPG)
+* Foto: ![](foto.JPG)
+
+* Domeinnaam: phoneandco.eu 
