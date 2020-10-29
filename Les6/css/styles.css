@@ -1,0 +1,108 @@
+/* Mohamed Ben Hammadi 1TI5 */
+
+@media all {
+	body {
+		font-size: 14px;
+		font-family: Arial;
+    }
+}
+@media (min-width: 480px) {
+	body {
+		font-size: 12px;
+		font-family: Arial;
+	}
+} 
+@media (min-width: 800px) {
+	body {
+		font-size: 16px;
+		font-family: Arial;
+	}
+}
+blockquote{
+	font-style: italic;
+}
+small{
+	text-align: center;
+}
+a{
+	text-decoration: none;
+}
+ol{
+	list-style-type: lower-alpha;
+}
+figcaption{
+	font-style: italic;
+	text-align: right;
+}
+#langmenu{
+	font-size: 10px;
+}
+#profile-photo{
+	width: 200px;
+	padding: 10px;
+	border: 5px solid #ddd;
+	filter: grayscale(50%);
+}
+a.active{
+	text-decoration: underline;
+}
+div.comment{
+	background-color: rgb(139, 0, 0);
+	padding: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+a:hover{
+	text-decoration: underline;
+}
+a:focus{
+	outline: 1px dotted #f09;
+}
+#profile-photo:hover{
+	filter: grayscale(50%);
+}
+::selection{
+	background-color: rgb(0, 255, 13);
+	
+}
+.intro::first-letter{
+	color: rgb(139, 139, 139);
+	font-size: 170%;
+}
+ul.weetjes{
+	list-style: none;
+}
+li.weetjes::before{
+	content: "♦";
+}
+main a{
+	color: rgb(4, 10, 63);
+}
+main a:hover{
+	color: rgb(96, 66, 228);
+}
+footer{
+	padding: 50px;
+}
+h3 + p{
+	color: #999;;
+}
+figure{
+	margin-left: 0px;
+}
+figure img{
+	margin-left: 40px;
+}
+
+#telefoon::before{
+	content: "T:";
+}
+#email::before{
+	content: "E:"
+}
+p:empty{
+	display: none;
+}
+li:nth-childeven{
+	color: rgb(206, 203, 37);
+}
