@@ -8,27 +8,33 @@
 	<style>
 		/* oplossing */
 		#contacts{
-			width: 100%;
-			display: grid;
-			grid-template-columns: auto auto auto;
-			grid-template-rows: auto;
+			display: flex;
+			flex-flow: row wrap;			
+		}		
+		.contact{
+			width: 31%;
 		}
-		header{
-			display: grid;
-			grid-template-columns: auto 20px;
+		.contact header{
+			display: flex;
+			justify-content: space-between;
+			align-items: flex-start;
 		}
 		.contact_menu{
 			display: flex;
-			flex-flow: row nowrap;
+			flex-flow: row wrap;
 		}
 		.contact_media{
 			display: flex;
 			flex-flow: row nowrap;
+			justify-content: flex-end;
 		}
 		footer{
+			display: flex;
+			justify-content: space-between;
+			align-items: flex-end;			
+		}	
 		
-			
-		}
+
 		/* gegeven CSS */
 
 		body {
