@@ -27,22 +27,23 @@
         <section>
             <h2>CONTACT US</h2>
             <p>Send an e-mail. All fields with an * are required</p>
-
-            <h4>Name*</h4>
             <form action="#">
-                <p>
-                    <input type="text">
-                </p>
-                <h4>E-mail*</h4>
-                <p><input type="text"></p>
-                <h4>Phone*</h4>
-                <p><input type="text"></p>
-                <h4>
-                    Message*</h4>
-                <p><input type="text"></p>
-
+                <p> <label for="InpName">Name*</label>
+                  <input type="text" required placeholder="youre naam"> 
+             </p>
+             <p>
+                 <label for="InpMail">E-mail*</label>
+                 <input type="email"required placeholder="youre mail"> </p>
+                 <p>
+                 <label for="InpPhone">Phone**</label> 
+                 <input type="text" required placeholder="Phone">
+             </p>
             </form>
-            <button>SEND</button>
+             <textarea name="" id="txtMessage" cols="30" rows="10"></textarea>
+              <p> <input type="submit" value="submit"></p>
+
+            
+           
         </section>
         <section>
             <iframe
