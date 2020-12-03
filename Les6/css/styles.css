@@ -94,11 +94,11 @@ figure img{
 	margin-left: 40px;
 }
 
-#telefoon::before{
-	content: "T:";
+a[href^="tel:"]::before{
+    content: "T: ";
 }
-#email::before{
-	content: "E:"
+a[href^="mailto:"]::before{
+    content: "E: ";
 }
 p:empty{
 	display: none;
