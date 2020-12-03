@@ -8,24 +8,7 @@ img {
     max-width: 100%;
 }
 
-#recent section {
-    width: 310px;
-}
 
-section h3 {
-    list-style: none;
-}
-
-section h3 a {
-    color: #454A4F;
-    text-decoration: none;
-}
-
-section p {
-    margin: auto auto auto auto;
-    color: #454A4F;
-    max-width: 364.233px;
-}
 
 /* header */
 header {
@@ -151,7 +134,24 @@ main div.wrapper {
     justify-content: space-between;
 
 }
+#recent section {
+    width: 310px;
+}
 
+section h3 {
+    list-style: none;
+}
+
+section h3 a {
+    color: #454A4F;
+    text-decoration: none;
+}
+
+section p {
+  
+    color: #454A4F;
+   
+}
 #bestelnu {
     background-image: url(../img/bestelnu.png);
     background-size: 100% 100%;
