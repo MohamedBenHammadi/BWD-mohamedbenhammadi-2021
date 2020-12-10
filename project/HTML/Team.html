@@ -6,33 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/team.css">
 </head>
 
 <body>
     <header>
-        <ul id="langmenu">
-            <li><a href="#">NL</a></li>
-            <li><a href="#">FR</a></li>
+        <div id="top">
+
+        
+        <h1><a href="home.html"><img src="img/IMG_E0351.JPG" alt="logo van de winkel"></a></h1>
+        <form action="#">
+            <label for="inpSearch">Zoek je telefoonmodel op onze website:</label>
+            <input type="text" id="inpSearch" placeholder="Zoek hier jouw telefoonmodel">
+              <input type="submit" value="Zoek">
+        </form>
+        <ul>
+            <li><a href="#"><img src="img/account.png" alt="">  account aanmaken</a> </li>
+            <li><a href="#"><img src="img/login.png" alt="">Log in</a></li>
         </ul>
-        <h1><a href="home.html"><img src="img/IMG_E0351.JPG" alt="logo van de winkel">PHONE&CO</a></h1>
     </header>
     <nav>
-        <ul>
+        <ul class="menu">
+           
             <li><a href="home.html">homepagina</a></li>
             <li><a href="herstellingen.html"> herstelingen</a></li>
             <li><a href="Team.html">Onze Team</a></li>
             <li><a href="info&locatie.html">info&locatie</a></li>
         </ul>
     </nav>
+</div>
     <main>
+        <div class="wrapper">
+
+      
         <section  id="teamManager">
             <p><img src="img/julian-wan.jpg" alt=""></p>
             <h2>Mohamed</h2>
             <span>Manager</span>
 
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-google-plus"></i></a>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <div class="Socialemedia">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                </div>
 
 
         </section>
@@ -41,41 +57,132 @@
             <h2>Rayan</h2>
             <span>IT specialist</span>
 
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-google-plus"></i></a>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <div class="Socialemedia">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                </div>
         </section>
         <section id="Chauffeur">
 
             <p><img src="img/Niels-Dejongh.jpg" alt=""></p>
             <h2>imrane</h2>
             <span>Chauffeur</span>
-
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-google-plus"></i></a>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
-
+            <div class="Socialemedia">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                </div>
         </section>
         <section id="Secretaris">
             <p><img src="img/aaron-Buka.jpg" alt=""></p>
             <h2>Adil</h2>
             <span>Secretaris</span>
-
+             <div class="Socialemedia">
             <a href="#"><i class="fa fa-facebook"></i></a>
             <a href="#"><i class="fa fa-google-plus"></i></a>
             <a href="#"><i class="fa fa-linkedin"></i></a>
+            </div>
         </section>
+        <h3>Neem afspraak met ons</h3>
+        <p>alle velden met een * zijn belangrijk</p>
+        <fieldset class="other">
+        <form action="#" class="personal">
+            <legend>Persoonlijke informaties</legend>
+            <div class="columns">
+              <div class="item">
+                <label for="fname">Voornaam<span>*</span></label>
+                <input id="fname" type="text" name="fname" />
+              </div>
+              <div class="item">
+                <label for="lname"> Achternaam<span>*</span></label>
+                <input id="lname" type="text" name="lname" />
+              </div>
+              <div class="item">
+                <label for="address">Emailadres<span>*</span></label>
+                <input id="address" type="text"   name="address" />
+              </div>
+              <div class="item">
+                <label for="phone">Telefoonnummer</label>
+                <input id="phone" type="tel"   name="phone"/>
+              </div>
+          </form>
+        </fieldset>
+
+          <form action="#">
+            <fieldset class="other">
+                <legend>Afspraak</legend>
+                  <div class="columns">
+                    <div class="item">
+                      <label for="date">Datum<span>*</span></label>
+                      <input id="date" type="date"   name="date" />
+                    </div>
+                    <div class="item">
+                      <label for="hour">Uur<span>*</span></label>
+                      <input id="hour" type="time"   name="hour" />
+                    </div>
+                    <div class="item">
+                      <label for="brand">Iphone<span>*</span></label>
+                      <select id="brand">
+                        <option value="Samsung">X</option>
+                        <option value="Iphone">11</option>
+                        <option value="Huawei">11pro</option>
+                        <option value="Nokia">Xs</option>
+                        <option value="Wiko">Xr</option>
+                        <option value="Sony">xs Max</option>
+                        <option value="Andere">...</option>
+                      </select>
+                      <input type="submit" value="Stuur">
+                    </div>
+
+                </fieldset>
+             </form>
+                
+    </div>
     </main>
     <footer>
+        <div class="socialmenu">
+            <p>FOLLOW US</p>
         <ul>
-           <li><a href="#"><i class="fa fa-facebook"></i></a></li> 
-           <li><a href="#"><i class="fa fa-snapchat"></i></a></li> 
-           <li><a href="#"><i class="fa fa-instagram"></i></a></li> 
-           <li><a href="#"><i class="fa fa-whatsapp"></i></a></li> 
-        </ul>
-        <small>Copyright 2020 © Phone&co | PRIVACY POLICY | DESIGN BY Mohamed Ben Hammadi</small>
-    </footer>
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li> 
+            <li><a href="#"><i class="fa fa-snapchat"></i></a></li> 
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li> 
+            <li><a href="#"><i class="fa fa-whatsapp"></i></a></li> 
+         </ul>
+        </div>
+       <p>Abonneer hier voor de laatste nieuwss over onze winkel</p>
+       <li><a href="#"><img src="img/mail.jpg" alt=""></a></li>
 
+       <h4>klantenservices</h4>
+       <ul>
+         <li><a href="#" title="Home">contat</a></li>
+         <li><a href="#" title="Werkwijze">garantie</a></li>
+         <li><a href="#" title="Ontwerpen">betalen</a></li>
+       </ul>
+     </section>
+
+     <section>
+       <h4>about</h4>
+       <ul>
+         <li><a href="#" title="Voorwaarden">Voorwaarden</a></li>
+         <li><a href="#" title="Privacy Policy">Privacy Policy</a></li>
+         <li><a href="#" title="FAQ">FAQ</a></li>
+       </ul>
+     </section>
+
+     <section>
+       <h4>zakelijk</h4>
+       <ul>
+         <li><a href="#" title="Twitter">Snelle services</a></li>
+         <li><a href="#" title="Facebook">Leveringen</a></li>
+       </ul>
+     </section>
+         <div class="copyright">
+            <small>Copyright 2020 © Phone&co | PRIVACY POLICY | DESIGN BY Mohamed Ben Hammadi</small>
+        </div>
+        </footer>
+         
+        
 </body>
 
 </html>
