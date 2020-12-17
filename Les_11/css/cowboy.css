@@ -60,7 +60,10 @@ article h1 {
     
 
 }
-
+#mainmenu a:hover {
+    background-color: #CCCCCC;
+    border-radius: 0px;
+}
 #mainmenu a {
     color: #000000;
     text-decoration: none;
@@ -147,6 +150,10 @@ article .button a {
     text-decoration: none;
     font-weight: bold;
 }
+article .button a:hover {
+    background-color: #cccc;
+    transition: 0.3s;
+}
 .circle {
     background-color: #000000;
     border-radius: 18px;
@@ -229,6 +236,10 @@ aside section.card li {
     list-style-type: none;
     
 }
+aside section.cardpopular li:hover{
+    background-color: #cccc;
+    transition: 0.3s;
+}
 
 aside section.card a {
 
@@ -291,6 +302,9 @@ footer .wrapper {
 .buttons .inactive {
     background-color: #0000004d;
     color: #ffffff4d;
+}
+.buttons:hover{
+    background-color: #CCC;
 }
 .social{
     color: #fff;
