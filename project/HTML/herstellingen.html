@@ -5,203 +5,276 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>herstelingen</title>
+    <link rel="stylesheet" href="vendor/slick/slick.css">
+    <link rel="stylesheet" href="vendor/slick/slick-theme.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/herstellingen.css">
 </head>
 
 <body>
     <header>
-        <div id="top">
-
-        
-        <h1><a href="home.html"><img src="img/IMG_E0351.JPG" alt="logo van de winkel"></a></h1>
-        <form action="#">
-            <label for="inpSearch">Zoek je telefoonmodel op onze website:</label>
-            <input type="text" id="inpSearch" placeholder="Zoek hier jouw telefoonmodel">
-              <input type="submit" value="Zoek">
-        </form>
-        <ul>
-            <li><a href="#"><img src="img/account.png" alt="">  account aanmaken</a> </li>
-            <li><a href="#"><img src="img/login.png" alt="">Log in</a></li>
-        </ul>
+        <div class="wrapper">
+            <div id="mainmenu">
+                <h1><a href="home.html"><img src="img/logo_1.png" alt="logo van de winkel">Phone&co</a></h1>
+                <form action="#" id="begin">
+                    <label for="inpSearch"></label>
+                    <input type="text" id="inpSearch" placeholder="Zoek hier jouw telefoonmodel">
+                    <input id="zoek" type="submit" value="Zoek">
+                </form>
+                <ul>
+                    <li><a href="#"><img src="img/profile.png" alt="">
+                            <p>account aanmaken</p>
+                        </a> </li>
+                    <li><a href="#"><img src="img/login.png" alt="">
+                            <p>Log in</p>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
     </header>
     <nav>
-        <ul class="menu">
-           
-            <li><a href="home.html">homepagina</a></li>
-            <li><a href="herstellingen.html"> herstelingen</a></li>
+        <ul id="menu">
+
+            <li class="active"><a href="home.html">homepagina</a></li>
+            <li><a href="herstellingen.html"> Herstellingen</a></li>
+            <li><a href="afspraak.html"> Afspraak</a></li>
             <li><a href="Team.html">Onze Team</a></li>
-            <li><a href="info&locatie.html">info&locatie</a></li>
+            <li><a href="info&locatie.html">Contact</a></li>
         </ul>
     </nav>
-</div>
-<main>
-    <section>
-        <h2>iPhone herstellen</h2>
-        <p>Hier onder zie je de prijzen van de herstelinngen per imphoneOm onze prijzen te kennen .</p>
-    </section>
-    <section>
-        <h3>iPhone 11pro en iPhone 11pro max </h3>
-        <figure>
-            <img src="img/iphone11pro.jfif" alt="">
-            <img src="img/iphone11.jfif" alt="">
-        </figure>
-        <h4>herstelingen</h4>
-        <p>Scherm gebroken en/of LCD defect</p>
-        <p>prijs: </p>
-        <p>Knop vervangen (power, volume, mute)</p>
-        <p>prijs: </p>
-        <p>Batterij vervangen</p>
-        <p>prijs: </p>
-        <p>Camera vooraan vervangen</p>
-        <p>prijs: </p>
-        <p>Camera achteraan vervangen</p>
-        <p>prijs: </p>
-    </section>
-    <section>
-        <h3>iPhone xs en xs Max </h3>
+    <main>
+        <div class="wrapper">
+            <section class="intro">
+                <h2>Iphone herstellen</h2>
+                <p>Hier onder zie je de prijzen van de herstelinngen per imphoneOm onze prijzen te kennen</p>
+            </section>
+            <div id="product">
+                <section class="iphones">
+                    <div>
+                        <h3>iPhone 11pro en iPhone 11pro max </h3>
 
-        <figure>
-            <img src="img/iphone xs.jfif" alt="">
-            <img src="img/iphone xs max.jfif" alt="">
-        </figure>
-        <h4>herstelingen</h4>
-        <p>Scherm gebroken en/of LCD defect</p>
-        <p>prijs: </p>
-        <p>Knop vervangen (power, volume, mute)</p>
-        <p>prijs: </p>
-        <p>Batterij vervangen</p>
-        <p>prijs: </p>
-        <p>Camera vooraan vervangen</p>
-        <p>prijs: </p>
-        <p>Camera achteraan vervangen</p>
-        <p>prijs: </p>
-    </section>
-    <section>
-        <h3>iPhone xr </h3>
+                        <div class="imgphones">
+                            <img src="img/iphone11png.png" alt="">
+                            <img src="img/iphone11pro.png" alt="">
 
-        <figure>
-            <img src="img/iphonexr.jfif" alt="">
-        </figure>
-        <h4>herstelingen</h4>
-        <p>Scherm gebroken en/of LCD defect</p>
-        <p>prijs: </p>
-        <p>Knop vervangen (power, volume, mute)</p>
-        <p>prijs: </p>
-        <p>Batterij vervangen</p>
-        <p>prijs: </p>
-        <p>Camera vooraan vervangen</p>
-        <p>prijs: </p>
-        <p>Camera achteraan vervangen</p>
-        <p>prijs: </p>
-    </section>
-    <section>
-        <h3>iPhone8 en iphone 8plus </h3>
+                        </div>
+                    </div>
+                    <div class="details">
+                        <p>Scherm gebroken en/of LCD defect</p>
+                        <p>prijs: €20 </p>
+                        <p>Knop vervangen (power, volume, mute)</p>
+                        <p>prijs: €30 </p>
+                        <p>Batterij vervangen</p>
+                        <p>prijs:€50 </p>
+                        <p>Camera vooraan vervangen</p>
+                        <p>prijs: €80 </p>
+                        <p>Camera achteraan vervangen</p>
+                        <p>prijs: €100 </p>
+                    </div>
+                </section>
+                <section class="iphones">
+                    <div>
+                        <h3>iPhone xs en xs Max </h3>
 
-        <figure>
-            <img src="img/iphone8.jfif" alt="">
-            <img src="img/iphone8 plus.jfif" alt="">
-        </figure>
-        <h4>herstelingen</h4>
-        <p>Scherm gebroken en/of LCD defect</p>
-        <p>prijs: </p>
-        <p>Home knop vervangen</p>
-        <p>prijs: </p>
-        <p>Knop vervangen (power, volume, mute)</p>
-        <p>prijs: </p>
-        <p>Batterij vervangen</p>
-        <p>prijs: </p>
-        <p>Camera vooraan vervangen</p>
-        <p>prijs: </p>
-        <p>Camera achteraan vervangen</p>
-        <p>prijs: </p>
-    </section>
-    <section>
-        <h3>iPhone7 en iphone 7plus </h3>
+                        <div class="imgphones">
 
-        <figure>
-            <img src="img/iphone7.jfif" alt="">
-            <img src="img/iphone7plus.jfif" alt="">
-        </figure>
-        <h4>herstelingen</h4>
-        <p>Scherm gebroken en/of LCD defect</p>
-        <p>prijs: </p>
-        <p>Home knop vervangen</p>
-        <p>prijs: </p>
-        <p>Knop vervangen (power, volume, mute)</p>
-        <p>prijs: </p>
-        <p>Batterij vervangen</p>
-        <p>prijs: </p>
-        <p>Camera vooraan vervangen</p>
-        <p>prijs: </p>
-        <p>Camera achteraan vervangen</p>
-        <p>prijs: </p>
-    </section>
-    <section>
-        <h3>Voor andere Iphones toestellen </h3>
-        <p>Stuur hier onder uw model van telefoon en wat de probleem is</p>
-        <form action="#">
-            <p> <label for="InpName">Naam*</label>
-                <input type="text" required placeholder="jouw naam">
-            </p>
-            <p>
-                <label for="InpMail">E-mail*</label>
-                <input type="email" required placeholder="jouw mail"> </p>
-            <p>
-                <label for="InpModel">Model van Iphone*</label>
-                <input type="text" required placeholder="schrijf hier je model van Iphone bv: 5, 5C, 4....">
-            </p>
-            <p>
-                <label for="txtProblem" id="txtProblem">Omschrijving probleem*</label>
-                <textarea name="" id="" cols="30" rows="10"> </textarea>
-            </p>
-            <p> <input type="submit" value="Verzend"></p>
-        </form>
-        </form>
-    </section>
-</main>
-<hr>
-<footer>
-    <div class="socialmenu">
-        <p>FOLLOW US</p>
-    <ul>
-        <li><a href="#"><i class="fa fa-facebook"></i></a></li> 
-        <li><a href="#"><i class="fa fa-snapchat"></i></a></li> 
-        <li><a href="#"><i class="fa fa-instagram"></i></a></li> 
-        <li><a href="#"><i class="fa fa-whatsapp"></i></a></li> 
-     </ul>
-    </div>
-   <p>Abonneer hier voor de laatste nieuwss over onze winkel</p>
-   <li><a href="#"><img src="img/mail.jpg" alt=""></a></li>
+                            <img src="img/iphonexs.png" alt="">
 
-   <h4>klantenservices</h4>
-   <ul>
-     <li><a href="#" title="Home">contat</a></li>
-     <li><a href="#" title="Werkwijze">garantie</a></li>
-     <li><a href="#" title="Ontwerpen">betalen</a></li>
-   </ul>
- </section>
+                        </div>
+                    </div>
+                    <div class="details">
+                        <p>Scherm gebroken en/of LCD defect</p>
+                        <p>prijs: €45 </p>
+                        <p>Knop vervangen (power, volume, mute)</p>
+                        <p>prijs: €35 </p>
+                        <p>Batterij vervangen</p>
+                        <p>prijs: €48 </p>
+                        <p>Camera vooraan vervangen</p>
+                        <p>prijs: €25 </p>
+                        <p>Camera achteraan vervangen</p>
+                        <p>prijs: €75 </p>
+                    </div>
+                </section>
+                <section class="iphones">
+                    <div>
+                        <h3>iPhone xr </h3>
 
- <section>
-   <h4>about</h4>
-   <ul>
-     <li><a href="#" title="Voorwaarden">Voorwaarden</a></li>
-     <li><a href="#" title="Privacy Policy">Privacy Policy</a></li>
-     <li><a href="#" title="FAQ">FAQ</a></li>
-   </ul>
- </section>
+                        <div class="imgphones">
+                            <img src="img/iphonexr.png" alt="">
+                            <img src="img/iphoneXRVoorkant.png" alt="">
+                        </div>
+                    </div>
+                    <div class="details">
+                        <p>Scherm gebroken en/of LCD defect</p>
+                        <p>prijs: €45</p>
+                        <p>Knop vervangen (power, volume, mute)</p>
+                        <p>prijs: €25</p>
+                        <p>Batterij vervangen</p>
+                        <p>prijs:€48 </p>
+                        <p>Camera vooraan vervangen</p>
+                        <p>prijs:€25 </p>
+                        <p>Camera achteraan vervangen</p>
+                        <p>prijs:€75 </p>
+                    </div>
+                </section>
+                <section class="iphones">
 
- <section>
-   <h4>zakelijk</h4>
-   <ul>
-     <li><a href="#" title="Twitter">Snelle services</a></li>
-     <li><a href="#" title="Facebook">Leveringen</a></li>
-   </ul>
- </section>
-     <div class="copyright">
-        <small>Copyright 2020 © Phone&co | PRIVACY POLICY | DESIGN BY Mohamed Ben Hammadi</small>
-    </div>
+                    <h3>iPhone8 en iphone 8plus </h3>
+
+                    <div class="imgphones">
+                        <img src="img/iphone8&Plus.png" alt="">
+
+                    </div>
+                    <div class="details">
+
+                        <p>Scherm gebroken en/of LCD defect</p>
+                        <p>prijs:€45 </p>
+                        <p>Home knop vervangen</p>
+                        <p>prijs:€48 </p>
+                        <p>Knop vervangen (power, volume, mute)</p>
+                        <p>prijs:€75 </p>
+                        <p>Batterij vervangen</p>
+                        <p>prijs:€100 </p>
+                        <p>Camera vooraan vervangen</p>
+                        <p>prijs:€55 </p>
+                        <p>Camera achteraan vervangen</p>
+                        <p>prijs:€65 </p>
+                    </div>
+                </section>
+                <section class="iphones">
+                    <div>
+                        <h3>iPhone7 en iphone 7plus </h3>
+                        <div class="imgphones">
+                            <img src="img/iphone7png.png" alt="">
+                            <img src="img/iphone7Face.png" alt="">
+                        </div>
+                    </div>
+                    <div class="details">
+                        <p>Scherm gebroken en/of LCD defect</p>
+                        <p>prijs:€100 </p>
+                        <p>Home knop vervangen</p>
+                        <p>prijs:€35 </p>
+                        <p>Knop vervangen (power, volume, mute)</p>
+                        <p>prijs:€55 </p>
+                        <p>Batterij vervangen</p>
+                        <p>prijs:€56 </p>
+                        <p>Camera vooraan vervangen</p>
+                        <p>prijs:€45 </p>
+                        <p>Camera achteraan vervangen</p>
+                        <p>prijs:€50 </p>
+                    </div>
+                </section>
+
+            </div>
+            <div class="intro">
+                <p>Voor andere Iphones toestellen gelieve het formulier in te vullen</p>
+            </div>
+
+
+            <form action="#" class="form">
+                <fieldset class="other">
+                    <div class="columns">
+                        <div id="row">
+
+
+                            <div class="item">
+                                <label for="fname">Voornaam<span>*</span></label>
+                                <input id="fname" type="text" required placeholder="jouw naam" name="fname" />
+                            </div>
+                            <div class="item">
+                                <label for="lname"> Achternaam<span>*</span></label>
+                                <input id="lname" type="text" required placeholder="jouw achternaam" name="lname" />
+                            </div>
+                            <div class="item">
+                                <label for="address">Emailadres<span>*</span></label>
+                                <input id="address" type="text" required placeholder="jouw e-mail" name="address" />
+                            </div>
+                            <div class="item">
+                                <label for="brand">model van Iphone<span>*</span></label>
+                                <select id="brand">
+                                    <option value="Samsung">6</option>
+                                    <option value="Iphone">6s</option>
+                                    <option value="Huawei">6 plus</option>
+                                    <option value="Nokia">5</option>
+                                    <option value="Wiko">5s</option>
+                                    <option value="Sony">5C</option>
+                                    <option value="Andere">...</option>
+                                </select>
+
+                            </div>
+                            <label for="problem">Beschrijf in 3-4 zinnen wat het probleem is</label>
+                            <textarea id="problem" cols="30" rows="10"></textarea>
+                            <div>
+                            <input id="btn" type="submit" value="Stuur">
+                        </div>
+                        </div>
+                        
+                            
+                        
+                    </div>
+                </fieldset>
+
+            </form>
+
+        </div>
+    </main>
+    <footer>
+        <div class="wrapper">
+            <div class="content">
+
+
+                <section id="social">
+                    <h4>FOLLOW US</h4>
+
+                    <ul>
+                        <li><a href="#" class="fa fa-facebook"></a></li>
+                        <li><a href="#" class="fa fa-snapchat"></a></li>
+                        <li><a href="#" class="fa fa-instagram"></a></li>
+                        <li><a href="#" class="fa fa-whatsapp"></a></li>
+
+                    </ul>
+                    <div id="newsletter">
+                        <p>Abonneer hier voor het laatste nieuws over onze winkel</p>
+                        <a href="#"><img src="img/mail0.png" alt=""></a>
+                    </div>
+                </section>
+
+                <section>
+                    <h4>klantenservices</h4>
+                    <ul>
+                        <li><a href="#" title="Home">contact</a></li>
+                        <li><a href="#" title="Werkwijze">garantie</a></li>
+                        <li><a href="#" title="Ontwerpen">betalen</a></li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4>about</h4>
+                    <ul>
+                        <li><a href="#" title="Voorwaarden">Voorwaarden</a></li>
+                        <li><a href="#" title="Privacy Policy">Privacy Policy</a></li>
+                        <li><a href="#" title="FAQ">FAQ</a></li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4>zakelijk</h4>
+                    <ul>
+                        <li><a href="#" title="Twitter">Snelle services</a></li>
+                        <li><a href="#" title="Facebook">Leveringen</a></li>
+                    </ul>
+                </section>
+            </div>
+            <div class="copyright">
+                <small>Copyright 2020 © Phone&co | PRIVACY POLICY | DESIGN BY Mohamed Ben Hammadi</small>
+            </div>
+        </div>
     </footer>
-
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="vendor/slick/slick.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>

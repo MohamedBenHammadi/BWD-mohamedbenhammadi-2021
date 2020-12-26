@@ -2,114 +2,138 @@
 <html lang="nl">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Phone&co</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/home.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Phone&co</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+ <link rel="stylesheet" href="css/home.css">
 </head>
 
 <body>
-    <header>
-        <div id="top">
 
-        
-        <h1><a href="home.html"><img src="img/IMG_E0351.JPG" alt="logo van de winkel"></a></h1>
-        <form action="#">
-            <label for="inpSearch">Zoek je telefoonmodel op onze website:</label>
-            <input type="text" id="inpSearch" placeholder="Zoek hier jouw telefoonmodel">
-              <input type="submit" value="Zoek">
-        </form>
-        <ul>
-            <li><a href="#"><img src="img/account.png" alt="">  account aanmaken</a> </li>
-            <li><a href="#"><img src="img/login.png" alt="">Log in</a></li>
-        </ul>
-    </header>
-    <nav>
-        <ul class="menu">
-           
-            <li><a href="home.html">homepagina</a></li>
-            <li><a href="herstellingen.html"> herstelingen</a></li>
-            <li><a href="Team.html">Onze Team</a></li>
-            <li><a href="info&locatie.html">info&locatie</a></li>
-        </ul>
-    </nav>
-</div>
-
-    <main>
-        <h2>Wie zijn we?</h2>
-        <p>hone&co is de telefoonwinkel die zich volledig richt op het herstellen van Iphones. In onze telefoonwinkel
-            vind je
-            altijd de <strong> de reparaties voor de beste prijs</strong>. Hierdoor weet je zeker dat je bij
-            onze
-            telefoonwinkel je telefoon als goedkoopste prijs kan herstellen.</p>
-            <p>Wanneer u telefoon brengt voor een reparatie dan zullen wij eerst kijken waar het probleem ligt.
-                Zo kunnen wij controloreren of het vervangonderdeel in stock is. Als het onderdeel in stock is
-                garanderen wij
-                een zeer snelle service in <strong>2 dagen</strong>.</p>
-        <div>
-            <h3>PHONE&CO<br>Phone&co is de telefoonwinkel die zich volledig richt op het herstellen van Iphones.</h3>
-            <div class="hometxt">
-            <a href="Team.html">  <button class="button" ><span> neem hier je afsspraak voor een thuisreparatie</span></button></a>
-            </div>
-          </div>
-          <h3>Meest voorkomende herstelingen</h3>
-          <figure>
-              <img src="img/Gebroken scherm iphone.jpg" alt="">
-              <figcaption>Vervangen van het lcd scherm  van Iphone 7 vervangen </figcaption>
-          </figure>
-        <h4>Kleine uitleg van hoe een scherm kan vervangen</h4>
-        <p>>Leven ons vraag jonge goa ouder. Schatkist ad aardschok bepaalden producten ik gomboomen te er. Dan naast alais
-            ijzer ten. Ons uitmaakt machtige menschen kapitaal zou pogingen tin gestoken. Verklaart bijgeloof mengeling er
-            versteend nu. Uithoudt oog die doodende staatjes het verschil. Opzicht nu fortuin nu menigte. Hen verwoede voorraad
-            grootste ton elastica laatsten wij uit. Wat den aanleiding concurrent dat uitstekend are.</p>
-    </main>
-    <hr>
-    <footer>
-        <div class="socialmenu">
-            <p>FOLLOW US</p>
-        <ul>
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li> 
-            <li><a href="#"><i class="fa fa-snapchat"></i></a></li> 
-            <li><a href="#"><i class="fa fa-instagram"></i></a></li> 
-            <li><a href="#"><i class="fa fa-whatsapp"></i></a></li> 
-         </ul>
+  <header>
+    <div class="wrapper">
+        <div id="mainmenu">
+            <h1><a href="home.html"><img src="img/logo_1.png" alt="logo van de winkel">Phone&co</a></h1>
+            <form action="#" id="begin" >
+                <label for="inpSearch"></label>
+                <input type="text" id="inpSearch" placeholder="Zoek hier jouw telefoonmodel">
+                <input  id="zoek" type="submit" value="Zoek">
+            </form>
+            <ul>
+                <li><a href="#"><img src="img/profile.png" alt=""><p>account aanmaken</p></a> </li>
+                <li><a href="#"><img src="img/login.png" alt=""> <p>Log in</p> </a></li>
+            </ul>
         </div>
-       <p>Abonneer hier voor de laatste nieuwss over onze winkel</p>
-       <li><a href="#"><img src="img/mail.jpg" alt=""></a></li>
+    </div>
+</header>
 
-       <h4>klantenservices</h4>
-       <ul>
-         <li><a href="#" title="Home">contat</a></li>
-         <li><a href="#" title="Werkwijze">garantie</a></li>
-         <li><a href="#" title="Ontwerpen">betalen</a></li>
-       </ul>
-     </section>
+  <nav>
+    <ul id="menu">
+      <li class="active"><a href="home.html">homepagina</a></li>
+      <li><a href="herstellingen.html"> Herstellingen</a></li>
+      <li><a href="afspraak.html"> Afspraak</a></li>
+      <li><a href="Team.html">Onze Team</a></li>
+      <li><a href="info&locatie.html">Contact</a></li>
+    </ul>
+  </nav>
+ 
 
-     <section>
-       <h4>about</h4>
-       <ul>
-         <li><a href="#" title="Voorwaarden">Voorwaarden</a></li>
-         <li><a href="#" title="Privacy Policy">Privacy Policy</a></li>
-         <li><a href="#" title="FAQ">FAQ</a></li>
-       </ul>
-     </section>
 
-     <section>
-       <h4>zakelijk</h4>
-       <ul>
-         <li><a href="#" title="Twitter">Snelle services</a></li>
-         <li><a href="#" title="Facebook">Leveringen</a></li>
-       </ul>
-     </section>
-         <div class="copyright">
-            <small>Copyright 2020 © Phone&co | PRIVACY POLICY | DESIGN BY Mohamed Ben Hammadi</small>
+
+  <main>
+    <div class="wrapper">
+      <h2 id="intro" >Wie zijn we?</h2>
+      <div id="introTxt" >
+
+     
+      <p >Phone&co is de telefoonwinkel die zich volledig richt op het herstellen van Iphones. In onze telefoonwinkel
+        vind je
+        altijd de <strong> de reparaties voor de beste prijs</strong>. Hierdoor weet je zeker dat je bij
+        onze
+        telefoonwinkel je telefoon als goedkoopste prijs kan herstellen.</p>
+      <p>Wanneer u telefoon brengt voor een reparatie dan zullen wij eerst kijken waar het probleem ligt.
+        Zo kunnen wij controloreren of het vervangonderdeel in stock is. Als het onderdeel in stock is
+        garanderen wij
+        een zeer snelle service in <strong>2 dagen</strong>.</p>
+      </div>
+      <div>
+        <h3 id="reservatie">PHONE&CO Phone&co is de telefoonwinkel die zich volledig richt op het herstellen van Iphones.</h3>
+        <div class="hometxt">
+          <a class="button" href="afspraak.html">neem hier je afspraak voor een
+                thuisreparatie</a>
         </div>
-        </footer>
-         
-        
+      </div>
+   
+      <div id="uitleg">
+      <h4>Wat doe je wanneer je scherm gebroken is?</h4>
+
+      <p>Reinig het oppervlak grondig met isopropylalcohol. Veeg het scherm vervolgens droog met een schone microvezeldoek.
+        Bereid een veegvinger voor. Het vloeibare oplosmiddel van de oleofobe coating verdampt erg snel wanneer het wordt aangebracht, dus als je eenmaal begint, werk dan snel. Wikkel een vinger in plasticfolie of een boterhamzakje. Gebruik deze vinger om de coatingvloeistof op het scherm te wrijven.
+        Breng 10-15 druppels van de coating aan op het schermoppervlak. Als het scherm van de telefoon of tablet een groot oppervlak heeft, breng dan 10 druppels aan op een deel van het scherm, waarbij je op een deel tegelijk werkt.
+        Verdeel de coating licht en snel door uw met plastic bedekte vinger over het oppervlak te vegen totdat de vloeistof verdampt.
+        Veeg het scherm droog met een schone microvezeldoek. Geef de coating vervolgens de tijd om te drogen. Raak het scherm 8-12 uur niet aan om de coating aan het oppervlak te laten hechten.
+        Wanneer de hechtingstijd is voltooid, veegt u eventuele resten van het touchscreen af ​​met een schone microvezeldoek.
+        Herhaal dit proces 2-3 keer om de oleofobe coatingprestaties en filmduurzaamheid volledig te maximaliseren.</p>
+      </div>
+    </div>
+  </main>
+  
+  <footer>
+    <div class="wrapper">
+      <div class="content">
+
+      
+  <section id="social">
+      <h4>FOLLOW US</h4>
+      <ul>
+        <li><a href="#" class="fa fa-facebook"></a></li>
+        <li><a href="#" class="fa fa-snapchat"></a></li>
+        <li><a href="#" class="fa fa-instagram"></a></li>
+        <li><a href="#" class="fa fa-whatsapp"></a></li>
+      </ul>
+      <div id="newsletter">
+        <p>Abonneer hier voor het laatste nieuws over onze winkel</p>
+        <a href="#"><img src="img/mail0.png" alt=""></a>
+      </div>
+    </section>
+   
+    <section>
+    <h4>klantenservices</h4>
+    <ul>
+      <li><a href="#" title="Home">contact</a></li>
+      <li><a href="#" title="Werkwijze">garantie</a></li>
+      <li><a href="#" title="Ontwerpen">betalen</a></li>
+    </ul>
+    </section>
+
+    <section>
+      <h4>about</h4>
+      <ul>
+        <li><a href="#" title="Voorwaarden">Voorwaarden</a></li>
+        <li><a href="#" title="Privacy Policy">Privacy Policy</a></li>
+        <li><a href="#" title="FAQ">FAQ</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h4>zakelijk</h4>
+      <ul>
+        <li><a href="#" title="Twitter">Snelle services</a></li>
+        <li><a href="#" title="Facebook">Leveringen</a></li>
+      </ul>
+    </section>
+  </div>
+    <div class="copyright">
+      <small>Copyright 2020 © Phone&co | PRIVACY POLICY | DESIGN BY Mohamed Ben Hammadi</small>
+    </div>
+    </div>
+  </footer>
+
+
 
 
 </body>

@@ -1,0 +1,99 @@
+
+main {
+    margin-bottom: 70px;
+    height: 380px;
+    color: #ffffff;
+}
+
+
+
+fieldset{
+	border-color: rgb(41, 55, 182);
+}
+
+legend {
+	padding: 10px;      
+	font-size: 18px;
+	color: white;
+	background-color: rgb(41, 55, 182);
+}
+textarea {
+	margin: 0px 0px 10px;
+    max-height: 100px;
+	width: calc(60% - 50px);
+	padding: 5px;
+}
+.box {
+    display: flex;
+    flex-flow: row nowrap;
+	justify-content: center;
+	padding: 20px;
+}
+.form {
+   
+	max-width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+	border-radius: 6px;
+	background-color: rgb(38, 66, 102);
+	box-shadow: 0 0 8px rgb(35, 85, 223); 
+}
+.intro {
+    color: #ffffff;
+    margin: 0 auto;
+    max-width: 40%;
+    background-color: #484E53;
+    text-align: center;
+    margin-top: 25px;
+}
+input, select, textarea {
+	margin-bottom: 10px;
+	border: 1px solid rgb(204, 204, 204);
+	border-radius: 3px;
+}
+input, select {
+	width: calc(100% - 10px);
+	padding: 5px;
+}
+
+
+
+.item input:hover, .item select:hover, .item textarea:hover {
+	border: 1px solid transparent;
+	box-shadow: 0 0 3px 0  rgb(38, 76, 202);
+	color: rgb(38, 76, 202);
+}
+
+.item span {
+	color: red;
+}
+
+.columns {
+    display:flex;
+    flex-flow: row nowrap;
+	justify-content:space-between;
+	
+}
+.columns div {
+	width:48%;
+}
+
+
+#personelijk_info{
+    margin-bottom: 30px;
+}
+#forms {
+margin: 20px auto;
+padding-top: 10px;
+
+}
+#problem{
+    display: block;
+}
+#btn{
+    margin-top: 35px;
+}
+main .wrapper{
+    display: block;
+    
+}

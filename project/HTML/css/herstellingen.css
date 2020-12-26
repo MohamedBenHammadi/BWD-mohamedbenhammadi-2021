@@ -1,0 +1,119 @@
+
+#product{
+    display: flex;
+    flex-flow: row wrap;
+     justify-content: space-between;
+     margin-top: 65px;
+     margin-bottom: 30px;
+}
+.imgphones img{
+    max-width: 270px;
+    height: 270px;
+    padding: 15px;
+    margin: 0;
+    overflow: hidden;
+}
+.intro{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.iphones{
+    padding-bottom: 75px;
+    display: flex;
+    flex-flow: row wrap;
+     justify-content: space-between;
+     
+}
+.details{
+  margin-top: 48px;
+   
+}
+
+.form {
+   overflow: hidden;
+  max-width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+border-radius: 6px;
+background-color: rgb(38, 66, 102);
+box-shadow: 0 0 8px rgb(35, 85, 223); 
+}
+.intro {
+	text-align: center;
+}
+input, select, textarea {
+	margin-bottom: 30px;
+	border: 1px solid rgb(204, 204, 204);
+	border-radius: 5px;
+}
+input, select {
+	width: calc(100% - 10px);
+	padding: 5px;
+}
+textarea {
+	margin: 0px 0px 10px;
+    max-height: 100px;
+	width: calc(60% - 50px);
+	padding: 5px;
+}
+
+
+
+.item input:hover, .item select:hover, .item textarea:hover {
+	border: 1px solid transparent;
+	box-shadow: 0 0 3px 0  rgb(206, 122, 26);
+	color: rgb(209, 132, 17);
+}
+
+.item span {
+	color: red;
+}
+
+#row {
+    display:flex;
+    flex-flow: row nowrap;
+	  justify-content:space-between;
+	
+}
+.columns div {
+	width:80%;
+}
+#btn{
+  
+  margin: 20px;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

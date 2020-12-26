@@ -4,154 +4,174 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inforamtie pagina</title>
+    <title>contact</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
 </head>
 
 <body>
     <header>
-        <div id="top">
-
-        
-        <h1><a href="home.html"><img src="img/IMG_E0351.JPG" alt="logo van de winkel"></a></h1>
-        <form action="#">
-            <label for="inpSearch">Zoek je telefoonmodel op onze website:</label>
-            <input type="text" id="inpSearch" placeholder="Zoek hier jouw telefoonmodel">
-              <input type="submit" value="Zoek">
-        </form>
-        <ul>
-            <li><a href="#"><img src="img/account.png" alt="">  account aanmaken</a> </li>
-            <li><a href="#"><img src="img/login.png" alt="">Log in</a></li>
-        </ul>
+        <div class="wrapper">
+            <div id="mainmenu">
+                <h1><a href="home.html"><img src="img/logo_1.png" alt="logo van de winkel">Phone&co</a></h1>
+                <form action="#" id="begin" >
+                    <label for="inpSearch"></label>
+                    <input type="text" id="inpSearch" placeholder="Zoek hier jouw telefoonmodel">
+                    <input  id="zoek" type="submit" value="Zoek">
+                </form>
+                <ul>
+                    <li><a href="#"><img src="img/profile.png" alt=""><p>account aanmaken</p></a> </li>
+                <li><a href="#"><img src="img/login.png" alt=""> <p>Log in</p> </a></li>
+                </ul>
+            </div>
+        </div>
     </header>
+    
     <nav>
-        <ul class="menu">
-           
-            <li><a href="home.html">homepagina</a></li>
-            <li><a href="herstellingen.html"> herstelingen</a></li>
-            <li><a href="Team.html">Onze Team</a></li>
-            <li><a href="info&locatie.html">info&locatie</a></li>
-        </ul>
+      <ul id="menu">
+        <li class="active"><a href="home.html">homepagina</a></li>
+        <li><a href="herstellingen.html"> Herstellingen</a></li>
+        <li><a href="afspraak.html"> Afspraak</a></li>
+        <li><a href="Team.html">Onze Team</a></li>
+        <li><a href="info&locatie.html">Contact</a></li>
+      </ul>
     </nav>
-</div>
 
     <main>
-        <section>
-            <h2>Onze contactgegevevns</h2>
-            <p>Stuur een e-mail, een bericht op whatsapp, snpachat en instagram.</p>
-          <p>schriijf een commentaar over onze services</p>
-           <ul>
-            <div class="Socialemedia">
-                </div>
-               <li> <a href="#"><i class="fa fa-facebook"></i></a></li>
-               <li> <a href="#"><i class="fa fa-google-plus"></i></a></li>
-               <li><a href="#"><i class="fa fa-snapchat"></i></a></li>
-               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+        <div class="wrapper">
+        <div id="intro">
+            <h2 id="Title" >Onze contactgegevens</h2>
+            <p>schriijf een commentaar over onze services op whatsapp, snapchat of instagram</p>
+          
+          <ul class="social" >
+               <li> <a href="#" class="fa fa-facebook"></a></li>
+               <li> <a href="#" class="fa fa-google-plus"></a></li>
+               <li><a href="#" class="fa fa-snapchat"></a></li>
+               <li><a href="#" class="fa fa-instagram"></a></li>
            </ul>
-        </section>
+        </div>
+        <div id="openingsuren">
         <h3>Openingsuren</h3>
         <p>maandag tot vrijdag van 11u-18u</p>
         <p>zaterdag van 12u-13-17u
-           zondag gesloten</p>
-        <section>
-            <h4>Google maps</h4>
-            <iframe
+           en zondag gesloten</p>
+        </div>
+        <div id="google">
+            <h3>Google maps</h3>
+            <iframe 
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d162.13059853289144!2d4.362403086655416!3d50.826706473861556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c4f34cd46ee7%3A0x5f7fdd1a6360a353!2sRue%20du%20Bailli%2022%2C%201000%20Bruxelles!5e0!3m2!1sfr!2sbe!4v1604764868047!5m2!1sfr!2sbe"
-                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-                tabindex="0"></iframe>
-
-            <address>
-                Bailli straat nr22 <br>
-                Brussel, 1000. <br>
-                Telephone:<a href="phone to:+1 800 603 6035">+1 800 603 6035</a><br>
-                E-mail: <a href="mail@demolink.org"> mail@demolink.org</a> <br>
-            </address>
-
+                height="450" style="border:0;width:100%" allowfullscreen=""></iframe>
+        </div>
+        <div id="locatie">
             <p>De winkel is gelegen in het hartje van brussel en is gemakkelijk bereikbaar met de verschillende
                 meethodes:</p>
-          <ul> 
-            <li>
-                <img src="img/openbaarvervoer.png" alt=""> MIVB bus: 54 & tram 8en 93 halte bailli
-            </li>
+          <ul>  
+            <li>  <img src="img/bus.png" alt=""> MIVB bus: 54 & tram 8en 93 halte bailli </li>
             <li><img src="img/auto.png" alt="">onze winkel is gemakkelijk bereikbaar via auto, tunnel louiza</li>
-            <li><img src="img/validitatie.jpg" alt="">Voor onze invalide klanten is er natuurlijk een parkeeplaats speciaal voor jullie om gemakkelijk naar ons winkel te komen</li>
-       
+            <li><img src="img/handicapLogo.png" alt="">Voor onze invalide klanten is er natuurlijk een parkeeplaats speciaal voor jullie om gemakkelijk naar ons winkel te komen</li>
         </ul> 
-        </section>
-        <section>
-        <p>schriijf een commentaar over onze services</p>
-        <p> Alle velden met een * zijn verplciht</p>
-
-        <form action="#">
-            <p> <label for="InpName">Naam*</label>
-              <input type="text" required placeholder="jouw naam"> 
-         </p>
-         <p>
-             <label for="InpMail">E-mail*</label>
-             <input type="email"required placeholder="jouw mail"> </p>
-         <p>
-             <label for="txtProblem">Jouw commentaar *</label>   
-            <textarea name="" id="" cols="30" rows="10" > </textarea>
-         </p>
-         <p> <input type="submit" value="Verzend"></p>
-         
-         </form>
-        </section>
-        <section> 
+    </div>
+    <div class="form">
+        <div class="leftSide">
+          <div>
+            <i class="fa fa-envelope"></i>
+            <p>Phone&co@gmail.com</p>
+          </div>
+          <div>
+            <i class="fa fa-times"></i>
+            <p>Baillistraat 22, 1000 Brussel</p>
+          </div>
+          <div>
+            <i class="fa fa-phone"></i>
+            <p> 02 463 38 34</p>
+          </div> 
+        </div>
+  
+        <div class="rightSide">
+          <form>
+            <p>
+              <input type="text" id="name" required placeholder="ex mohamed">
+            </p>
+            <p>
+              <input type="text" id="email" required placeholder="ex mohamed@outlook.com" >
+            </p>
+            <p>
+              <input type="text" id="onderwp" placeholder="Onderwerp">
+            </p>
+            <p> 
+              <textarea id="desc" rows="5" required placeholder="ex snelle levering, goede service" ></textarea>
+            </p>
+            <p>
+              <input type="submit" value="Stuur commentaar">
+            </p>
+          </form>
+        </div>
+      </div>
+        <div id="info"> 
             <h3>Belangrijk</h3>
             <p> betalingen gebeuren enkel via bankkaart, niet meer cash wegens corona</p>
             <ul>
-                <li>cash (max €500)</li>
-                <li>bancontact</li>
-                <li>creditcard</li>
-                <li>mastercard</li>
+                <li> <img src="img/bancontact.png" alt=""> bancontact</li>
+                <li> <img src="img/visa.png" alt=""> creditcard</li>
+                <li> <img src="img/mastercard.png" alt=""> mastercard</li>
             </ul>
-        </section>
+        </div>
+    </div>
     </main>
-    <hr>
     <footer>
-        <div class="socialmenu">
-            <p>FOLLOW US</p>
+        <div class="wrapper">
+          <div class="content">
+    
+          
+      <section id="social">
+          <h4>FOLLOW US</h4>
+          <ul>
+            <li><a href="#" class="fa fa-facebook"></a></li>
+            <li><a href="#" class="fa fa-snapchat"></a></li>
+            <li><a href="#" class="fa fa-instagram"></a></li>
+            <li><a href="#" class="fa fa-whatsapp"></a></li>
+          
+          </ul>
+          <div id="newsletter">
+            <p>Abonneer hier voor het laatste nieuws over onze winkel</p>
+            <a href="#"><img src="img/mail0.png" alt=""></a>
+          </div>
+        </section>
+       
+        <section>
+        <h4>klantenservices</h4>
         <ul>
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li> 
-            <li><a href="#"><i class="fa fa-snapchat"></i></a></li> 
-            <li><a href="#"><i class="fa fa-instagram"></i></a></li> 
-            <li><a href="#"><i class="fa fa-whatsapp"></i></a></li> 
-         </ul>
+          <li><a href="#" title="Home">contact</a></li>
+          <li><a href="#" title="Werkwijze">garantie</a></li>
+          <li><a href="#" title="Ontwerpen">betalen</a></li>
+        </ul>
+        </section>
+    
+        <section>
+          <h4>about</h4>
+          <ul>
+            <li><a href="#" title="Voorwaarden">Voorwaarden</a></li>
+            <li><a href="#" title="Privacy Policy">Privacy Policy</a></li>
+            <li><a href="#" title="FAQ">FAQ</a></li>
+          </ul>
+        </section>
+    
+        <section>
+          <h4>zakelijk</h4>
+          <ul>
+            <li><a href="#" title="Twitter">Snelle services</a></li>
+            <li><a href="#" title="Facebook">Leveringen</a></li>
+          </ul>
+        </section>
+      </div>
+        <div class="copyright">
+          <small>Copyright 2020 © Phone&co | PRIVACY POLICY | DESIGN BY Mohamed Ben Hammadi</small>
         </div>
-       <p>Abonneer hier voor de laatste nieuwss over onze winkel</p>
-       <li><a href="#"><img src="img/mail.jpg" alt=""></a></li>
-
-       <h4>klantenservices</h4>
-       <ul>
-         <li><a href="#" title="Home">contat</a></li>
-         <li><a href="#" title="Werkwijze">garantie</a></li>
-         <li><a href="#" title="Ontwerpen">betalen</a></li>
-       </ul>
-     </section>
-
-     <section>
-       <h4>about</h4>
-       <ul>
-         <li><a href="#" title="Voorwaarden">Voorwaarden</a></li>
-         <li><a href="#" title="Privacy Policy">Privacy Policy</a></li>
-         <li><a href="#" title="FAQ">FAQ</a></li>
-       </ul>
-     </section>
-
-     <section>
-       <h4>zakelijk</h4>
-       <ul>
-         <li><a href="#" title="Twitter">Snelle services</a></li>
-         <li><a href="#" title="Facebook">Leveringen</a></li>
-       </ul>
-     </section>
-         <div class="copyright">
-            <small>Copyright 2020 © Phone&co | PRIVACY POLICY | DESIGN BY Mohamed Ben Hammadi</small>
         </div>
-        </footer>
-         
-        
-</body>
-
-</html>
+      </footer>
+    
+    
+    
+    </body>
+    </html>

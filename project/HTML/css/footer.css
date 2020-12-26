@@ -1,0 +1,133 @@
+footer{
+    margin-top: 150px;
+    background-color: #484E53;
+  }
+  #social{
+    padding-left: 0%;
+    margin-left: 0%;
+    max-width: 200px;
+   }
+   
+   footer div.content  {
+       display: flex;
+       flex-flow: row nowrap;
+       justify-content: space-between;
+       list-style-type: none;
+   }
+   #social ul{
+       display: flex;
+       flex-flow:row nowrap ;
+       font-size: 35px;
+       text-decoration: none;
+   }
+   #social ul li+li{
+   margin-left:30px ;
+   }
+   footer div.wrapper ul {
+       list-style-type: none;
+       color: rgb(15, 9, 9);
+   
+   
+   }
+   
+   footer div.wrapper a {
+       text-decoration: none;
+       color: #454A4F;
+   }
+   
+   footer div.wrapper h4 {
+       margin-top: 25px;
+       margin-bottom: 20px;
+       justify-content: space-between;
+       color: #454A4F;
+       text-transform: uppercase;
+   }
+   
+   footer div.wrapper li {
+       margin-bottom: 20px;
+       border-bottom: 1px solid #454A4F;
+   
+   
+   }
+   
+   footer section ul li a:hover {
+       color: #112d49;
+       text-decoration: underline;
+   }
+   .copyright{
+   text-align: center;
+    margin-top: 1.2em;
+   }
+   #newsletter img{
+       justify-items: center;
+       max-width: 40%;
+       margin-left: 4.5em;
+   }
+  
+   footer div.content  {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+  #social ul{
+    display: flex;
+    flex-flow:row nowrap ;
+    font-size: 35px;
+    text-decoration: none;
+  }
+  #social ul li+li{
+  margin-left:30px ;
+  }
+  footer div.wrapper ul {
+    list-style-type: none;
+    color:  #ffffff;
+  
+  
+  }
+  
+  footer div.wrapper a {
+    text-decoration: none;
+    color:  #ffffff;
+  }
+  
+  footer div.wrapper h4 {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    color:  #ffffff;
+    text-transform: uppercase;
+  }
+  
+  footer div.wrapper li {
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(46, 78, 138);
+  
+  
+  }
+  
+  footer section ul li a:hover {
+    color: #112d49;
+    
+  }
+  
+  
+  .copyright{
+    color: #ffffff;
+  text-align: center;
+  padding-top: 1.2em;
+  }
+  
+  #newsletter img{
+    justify-items: center;
+    max-width: 40%;
+    margin-left: 4.5em;
+  }
+  #newsletter p{
+    color: #ffffff;
+  }
+  #newsletter img{
+      justify-items: center;
+      max-width: 40%;
+      margin-left: 4.5em;
+  }
