@@ -11,13 +11,14 @@ img {
 }
 
 .wrapper {
-    margin: 0 auto;
-    max-width: 1400px;
+  margin: 0 auto;
+  max-width: 120rem;
 }
-
+html{
+  font-size: 62.5%;
+}
 body {
-    background-color: #F1F1F1;
-    font-size: 15px;
+    font-size: 1.5rem;
     line-height: 1.5;
     height: 100%;
      background-image:
@@ -36,13 +37,13 @@ body {
   
   }
   #mainmenu li+li{
-    padding-left: 1.2em ;
+    padding-left: 1.2rem ;
   }
   #mainmenu ul {
     display: flex;
     flex-flow: row nowrap;
     list-style-type: none;
-    border-radius: 5px;
+    border-radius: 0.3rem;
   
   
   }
@@ -51,15 +52,18 @@ body {
     display: block;
     color: #ffffff;
     text-decoration: none;
-    max-width: 120px;
-    max-height: 120px;
+    max-width: 7rem;
+    max-height: 7rem;
+  }
+  #mainmenu a:hover{
+    color: rgb(167, 66, 53);
   }
   #mainmenu ul li {
     text-align: center;
   }
   header {
-    padding-top: 20px;
-    padding-bottom: 60px;
+    padding-top: 1.2rem;
+    padding-bottom: 3.3rem;
   }
   #begin #zoek{
     display: none;
@@ -68,7 +72,7 @@ body {
   h1 {
     padding: 0;
     margin: 0;
-    font-size: 23px;
+    font-size: 1.5rem;
   }
   
   #menu {
@@ -76,66 +80,73 @@ body {
     flex-flow: row nowrap;
     list-style-type: none;
     justify-content: center;
-    padding-bottom: 5em;
+    padding-bottom: 5rem;
     
   }
   #mainmenu li{
-    font-size: 12px ;
+    font-size: 1.5rem ;
   }
  
   #menu li.active a{
-    border-bottom: 2px solid rgb(46, 78, 138);
+    border-bottom: 0.2rem solid rgb(46, 78, 138);
 }
 
-  ul li img{
-    max-width: 50px;
-  }
+ul li img{
+  max-width: 3.5rem;
+}
   
   #menu a:hover {
     color:  rgb(167, 66, 53) ;
-    border-bottom: 2px solid rgb(46, 78, 138);
+    border-bottom: 0.2rem solid rgb(46, 78, 138);
     transition: 0.1s;
   }
   
   #menu a {
     color: #ffffff;
     text-decoration: none;
-    padding: 15px;
+    padding: 0.8rem;
   
   }
 
 #inpSearch {
-    width: 21em;
+  width: 33.5rem;
     background: linear-gradient(rgba(66, 60, 136, 0.3),
     rgba(9, 63, 80, 0.3)), transparent;
 color:  #ffffff;
-    font-size: 1.2em;
+font-size: 1.7rem;
     text-decoration: none;
-    margin: 1.9em 0;
+    margin: 1.9rem 0;
     border: 1px solid rgb(12, 12, 10);
-    border-radius: 4px;
-    padding: 0.4em 1.4em;
+    border-radius: 0.22rem;
+    padding: 0.4rem 1.4rem;
     text-transform: uppercase;
     justify-content: center;
-    margin-left: 9em;
+    margin-left: 4.5em;
 }
 
 main {
-    margin-bottom: 150px;
-    height: 380px;
+    margin-bottom: 8.3rem;
+    height: 21.1rem;
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)), url(../img/Gebroken\ scherm\ iphone.jpg);
+background-attachment: fixed;
+background-position: top;
+background-repeat: no-repeat;
+background-size: cover; 
 }
 #intro{
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 2.5rem;
 }
 #introTxt{
-    padding-bottom: 2.2em;
+    padding-bottom: 2.2rem;
 
 }
 #reservatie{
     text-align: center;
     color: #ffffff;
-    padding-bottom: 1.3em;
+    padding-bottom: 2.5rem;
 }
 .button {
 
@@ -143,12 +154,12 @@ main {
     rgba(9, 63, 80, 0.3)), transparent;
 color:  #ffffff;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 2rem;
     text-decoration: none;
-    margin: 1.9em 0;
+    margin: 1.9rem 0;
     border: 1px solid rgb(12, 12, 10);
-    border-radius: 4px;
-    padding: 0.8em 2.8em;
+    border-radius: 0.3rem;
+    padding: 1rem 3rem;
     text-transform: uppercase;
     transition: 1s all ease;
     margin: 0 auto;
@@ -159,13 +170,13 @@ color:  #ffffff;
     text-align: center;
 }
 #uitleg{
-    padding-top: 4em;
-    padding-bottom: 3em;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
     
 }
 #uitleg h4{
    text-align: center;
-   padding-bottom: 0.6em;
+   padding-bottom: 0.6rem;
 }
 
 .button:hover {
@@ -173,13 +184,13 @@ color:  #ffffff;
     background: rgba(34, 25, 158, 0.575);
 }
 footer{
-    margin-top: 100px;
+    margin-top: 30rem;
    
   }
   #social{
     padding-left: 0%;
     margin-left: 0%;
-    max-width: 200px;
+    max-width: 11.2rem;
    }
    
    footer div.content  {
@@ -191,11 +202,11 @@ footer{
    #social ul{
        display: flex;
        flex-flow:row nowrap ;
-       font-size: 35px;
+       font-size: 2rem;
        text-decoration: none;
    }
    #social ul li+li{
-   margin-left:30px ;
+   margin-left: 1.6rem ;
    }
    footer div.wrapper ul {
        list-style-type: none;
@@ -210,15 +221,15 @@ footer{
    }
    
    footer div.wrapper h4 {
-       margin-top: 30px;
-       margin-bottom: 70px;
+       margin-top:1.6rem;
+       margin-bottom: 4rem;
        justify-content: space-between;
        color: #454A4F;
        text-transform: uppercase;
    }
    
    footer div.wrapper li {
-       margin-bottom: 20px;
+       margin-bottom: 1.2rem;
        border-bottom: 1px solid #454A4F;
    
    
@@ -230,12 +241,12 @@ footer{
    }
    .copyright{
    text-align: center;
-    margin-top: 1.2em;
+    margin-top: 1.2rem;
    }
    #newsletter img{
        justify-items: center;
        max-width: 40%;
-       margin-left: 4.5em;
+       margin-left: 4.5rem;
    }
   
    footer div.content  {
@@ -251,7 +262,7 @@ footer{
     text-decoration: none;
   }
   #social ul li+li{
-  margin-left:30px ;
+  margin-left: 2rem ;
   }
   footer div.wrapper ul {
     list-style-type: none;
@@ -266,15 +277,15 @@ footer{
   }
   
   footer div.wrapper h4 {
-    margin-top: 25px;
-    margin-bottom: 20px;
+    margin-top: 1.4rem;
+    margin-bottom: 1.2rem;
     justify-content: space-between;
     color:  #ffffff;
     text-transform: uppercase;
   }
   
   footer div.wrapper li {
-    margin-bottom: 20px;
+    margin-bottom: 1.2rem;
     border-bottom: 1px solid rgb(46, 78, 138);
   
   
@@ -289,13 +300,13 @@ footer{
   .copyright{
     color: #ffffff;
   text-align: center;
-  padding-top: 1.2em;
+  padding-top: 1.2rem;
   }
   
   #newsletter img{
     justify-items: center;
     max-width: 40%;
-    margin-left: 4.5em;
+    margin-left: 4.5rem;
   }
   #newsletter p{
     color: #ffffff;
@@ -303,5 +314,5 @@ footer{
   #newsletter img{
       justify-items: center;
       max-width: 40%;
-      margin-left: 4.5em;
+      margin-left: 4.5rem;
   }

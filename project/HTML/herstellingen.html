@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>herstelingen</title>
-    <link rel="stylesheet" href="vendor/slick/slick.css">
-    <link rel="stylesheet" href="vendor/slick/slick-theme.css">
+  <!-- link voor icones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- link voor css -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/herstellingen.css">
 </head>
@@ -40,7 +40,7 @@
             <li><a href="herstellingen.html"> Herstellingen</a></li>
             <li><a href="afspraak.html"> Afspraak</a></li>
             <li><a href="Team.html">Onze Team</a></li>
-            <li><a href="info&locatie.html">Contact</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
     <main>
@@ -51,13 +51,10 @@
             </section>
             <div id="product">
                 <section class="iphones">
-                    <div>
+                    <div class="titleIphone">
                         <h3>iPhone 11pro en iPhone 11pro max </h3>
-
                         <div class="imgphones">
                             <img src="img/iphone11png.png" alt="">
-                            <img src="img/iphone11pro.png" alt="">
-
                         </div>
                     </div>
                     <div class="details">
@@ -74,7 +71,7 @@
                     </div>
                 </section>
                 <section class="iphones">
-                    <div>
+                    <div class="titleIphone">
                         <h3>iPhone xs en xs Max </h3>
 
                         <div class="imgphones">
@@ -97,12 +94,11 @@
                     </div>
                 </section>
                 <section class="iphones">
-                    <div>
+                    <div class="titleIphone">
                         <h3>iPhone xr </h3>
 
                         <div class="imgphones">
                             <img src="img/iphonexr.png" alt="">
-                            <img src="img/iphoneXRVoorkant.png" alt="">
                         </div>
                     </div>
                     <div class="details">
@@ -119,15 +115,13 @@
                     </div>
                 </section>
                 <section class="iphones">
-
+                    <div class="titleIphone">
                     <h3>iPhone8 en iphone 8plus </h3>
-
                     <div class="imgphones">
                         <img src="img/iphone8&Plus.png" alt="">
-
+                    </div>
                     </div>
                     <div class="details">
-
                         <p>Scherm gebroken en/of LCD defect</p>
                         <p>prijs:€45 </p>
                         <p>Home knop vervangen</p>
@@ -143,10 +137,9 @@
                     </div>
                 </section>
                 <section class="iphones">
-                    <div>
+                    <div class="titleIphone">
                         <h3>iPhone7 en iphone 7plus </h3>
                         <div class="imgphones">
-                            <img src="img/iphone7png.png" alt="">
                             <img src="img/iphone7Face.png" alt="">
                         </div>
                     </div>
@@ -176,21 +169,20 @@
                 <fieldset class="other">
                     <div class="columns">
                         <div id="row">
-
-
-                            <div class="item">
+                            <div id="personlijkeinfo">  
+                            <p class="item">
                                 <label for="fname">Voornaam<span>*</span></label>
                                 <input id="fname" type="text" required placeholder="jouw naam" name="fname" />
-                            </div>
-                            <div class="item">
+                            </p>
+                            <p class="item">
                                 <label for="lname"> Achternaam<span>*</span></label>
                                 <input id="lname" type="text" required placeholder="jouw achternaam" name="lname" />
-                            </div>
-                            <div class="item">
+                            </p>
+                            <p class="item">
                                 <label for="address">Emailadres<span>*</span></label>
                                 <input id="address" type="text" required placeholder="jouw e-mail" name="address" />
-                            </div>
-                            <div class="item">
+                            </p>
+                            <p class="item">
                                 <label for="brand">model van Iphone<span>*</span></label>
                                 <select id="brand">
                                     <option value="Samsung">6</option>
@@ -201,45 +193,38 @@
                                     <option value="Sony">5C</option>
                                     <option value="Andere">...</option>
                                 </select>
-
+                            </p>
                             </div>
+                         
+                            <p id="commentaar">
                             <label for="problem">Beschrijf in 3-4 zinnen wat het probleem is</label>
                             <textarea id="problem" cols="30" rows="10"></textarea>
-                            <div>
+                            </p>
+                            <p id="button" >
                             <input id="btn" type="submit" value="Stuur">
+                            </p>
                         </div>
                         </div>
-                        
-                            
-                        
-                    </div>
                 </fieldset>
-
             </form>
-
         </div>
     </main>
     <footer>
         <div class="wrapper">
             <div class="content">
-
-
                 <section id="social">
                     <h4>FOLLOW US</h4>
-
                     <ul>
                         <li><a href="#" class="fa fa-facebook"></a></li>
                         <li><a href="#" class="fa fa-snapchat"></a></li>
                         <li><a href="#" class="fa fa-instagram"></a></li>
                         <li><a href="#" class="fa fa-whatsapp"></a></li>
-
                     </ul>
                     <div id="newsletter">
                         <p>Abonneer hier voor het laatste nieuws over onze winkel</p>
                         <a href="#"><img src="img/mail0.png" alt=""></a>
                     </div>
                 </section>
-
                 <section>
                     <h4>klantenservices</h4>
                     <ul>
@@ -248,7 +233,6 @@
                         <li><a href="#" title="Ontwerpen">betalen</a></li>
                     </ul>
                 </section>
-
                 <section>
                     <h4>about</h4>
                     <ul>
@@ -271,10 +255,7 @@
             </div>
         </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="vendor/slick/slick.js"></script>
-    <script src="js/scripts.js"></script>
+   
 </body>
 
 </html>

@@ -1,92 +1,100 @@
 
+
 #product{
-    display: flex;
-    flex-flow: row wrap;
-     justify-content: space-between;
-     margin-top: 65px;
-     margin-bottom: 30px;
+  display: flex;
+  flex-flow: row wrap;
+   justify-content: space-between;
+   margin-top: 3.7rem;
+   margin-bottom: 1.7rem;
 }
 .imgphones img{
-    max-width: 270px;
-    height: 270px;
-    padding: 15px;
-    margin: 0;
-    overflow: hidden;
+  max-width: 25rem;
+  height: 25rem;
+  padding: 0.83rem;
+  margin: 0;
+  overflow: hidden;
 }
 .intro{
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 30px;
+  text-align: center;
+  margin-top: 1.2rem;
+  margin-bottom: 1.667rem;
 }
 .iphones{
-    padding-bottom: 75px;
-    display: flex;
-    flex-flow: row wrap;
-     justify-content: space-between;
-     
+  padding-bottom: 4.5rem;
+  display: flex;
+  flex-flow: row wrap;
+   justify-content: space-between;
+   
 }
 .details{
-  margin-top: 48px;
-   
+
+margin-top: 3.3rem;
+ 
 }
 
 .form {
-   overflow: hidden;
-  max-width: 100%;
-  padding: 20px;
-  margin-bottom: 20px;
-border-radius: 6px;
+color: #ffffff;
+ overflow: hidden;
+max-width: 100%;
+padding: 1rem;
+margin-bottom: 1.2rem;
+border-radius: 0.3rem;
 background-color: rgb(38, 66, 102);
-box-shadow: 0 0 8px rgb(35, 85, 223); 
+box-shadow: 0 0 0.5rem rgb(35, 85, 223); 
 }
 .intro {
-	text-align: center;
+text-align: center;
 }
 input, select, textarea {
-	margin-bottom: 30px;
-	border: 1px solid rgb(204, 204, 204);
-	border-radius: 5px;
+margin-bottom: 1.7rem;
+border: 1px solid rgb(204, 204, 204);
+border-radius: 0.3rem;
 }
 input, select {
-	width: calc(100% - 10px);
-	padding: 5px;
+width: calc(100% - 0.6rem);
+padding:  0.3rem;
 }
 textarea {
-	margin: 0px 0px 10px;
-    max-height: 100px;
-	width: calc(60% - 50px);
-	padding: 5px;
+margin: 0px 0px 0.6rem;
+  max-height: 5.6rem;
+width: calc(60% - 2.8rem);
+padding: 0.3rem;
 }
 
 
 
 .item input:hover, .item select:hover, .item textarea:hover {
-	border: 1px solid transparent;
-	box-shadow: 0 0 3px 0  rgb(206, 122, 26);
-	color: rgb(209, 132, 17);
+border: 1px solid transparent;
+box-shadow: 0 0 3px 0  rgb(206, 122, 26);
+color: rgb(209, 132, 17);
 }
 
 .item span {
-	color: red;
+color: red;
 }
 
-#row {
-    display:flex;
-    flex-flow: row nowrap;
-	  justify-content:space-between;
-	
+#personlijkeinfo {
+display: flex;
+flex-flow: row nowrap;
+justify-content: space-between;
+margin: 0 auto;
 }
-.columns div {
-	width:80%;
-}
+
 #btn{
-  
-  margin: 20px;
-  margin-right: 40px;
-  margin-left: 40px;
-  margin-top: 40px;
+max-width: 10%;
+
+
+}
+#button{
+text-align: center;
 }
 
+#commentaar{
+padding-bottom: 1.7rem ;
+display: flex;
+flex-flow: column nowrap;
+align-items: center;
+}
 
 
 

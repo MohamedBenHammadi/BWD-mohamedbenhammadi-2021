@@ -14,14 +14,14 @@ img {
 
 .wrapper {
     margin: 0 auto;
-    max-width: 1400px;
+    max-width: 120rem;
 }
 html{
     font-size: 62.5%;
 }
 body {
     background-color: #F1F1F1;
-    font-size: 15px;
+    font-size: 1.5rem;
     line-height: 1.5;
     height: 100%;
   

@@ -1,11 +1,10 @@
-
- #intro{
+#intro{
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 1.7rem;
 
 }
 main{
-  padding-top: 2em;
+  padding-top: 2rem;
 }
 main .wrapper{
   display: flex;
@@ -15,86 +14,76 @@ main .wrapper{
  main .wrapper .teamlid {
   text-align: center;
   margin-bottom: 0px;
-  margin-top: 45px;
+  margin-top: 2.8rem;
 }
 
 main .wrapper .teamlid .profielfoto {
-  margin-bottom: 15px;
+  margin-bottom: 0.9rem;
   overflow: hidden;
-  height: 250px;
+  height: 22rem;
 }
 
 .profielfoto img {
-  max-width: 100%;
-  height: 100%;
-  padding: 15px;
+  max-width: 110%;
+  height: 110%;
+  padding: 1rem;
   margin: 0;
 }
 
 .wrapper .teamlid h3 {
   color: black;
-
-  margin-bottom: 2px;
-  font-size: 18px;
+  margin-bottom: 0.2rem;
+  font-size: 1.7rem;
 }
 
- .teamlid p {
+.teamlid p {
   font-style: italic;
   display: block;
-  font-size: 13px;
+  font-size: 1.2rem;
 }
 
- .Socialemedia {
-  margin-top: 15px;
-  margin-bottom: 50px;
+.Socialemedia {
+  margin-top: 0.84rem;
+  margin-bottom: 2.8rem;
   justify-content: space-between;
 }
 .Socialemedia ul{
   
   display: flex;
   flex-flow:row nowrap ;
-  font-size: 25px;
+  font-size: 2.7rem;
  
 }
 .Socialemedia a {
   color: rgb(33, 100, 163);
   text-decoration: none;
 }
+.Socialemedia a:hover{
+  color: rgb(167, 66, 53);
+}
+
 .Socialemedia li {
   list-style-type: none;
   margin: 0 auto;
 }
 .Socialemedia ul li+li{
-  margin-left:30px ;
+  margin-left: 1.7rem ;
   }
 #team .teamlid .Socialemedia a:hover {
   color: black;
 }
 
-#team .teamlid .Socialemedia i {
-  font-size: 18px;
-  margin: 0 2px;
+
+
+
+.banner{
+  margin-top: 3rem;
 }
 
+.banner img{
+  margin-left: 66rem;
+  max-width: 30%;
+  max-height: 50%;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 

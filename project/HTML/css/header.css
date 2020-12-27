@@ -5,13 +5,13 @@
   
   }
   #mainmenu li+li{
-    padding-left: 1.2em ;
+    padding-left: 1.2rem ;
   }
   #mainmenu ul {
     display: flex;
     flex-flow: row nowrap;
     list-style-type: none;
-    border-radius: 5px;
+    border-radius: 0.3rem;
   
   
   }
@@ -20,18 +20,22 @@
     display: block;
     color: #ffffff;
     text-decoration: none;
-    max-width: 120px;
-    max-height: 120px;
+    max-width: 6.7rem;
+    max-height: 6.7rem;
+  }
+  #mainmenu a:hover{
+    color: rgb(167, 66, 53);
   }
   #mainmenu ul li {
     text-align: center;
   }
   header {
-    padding-top: 20px;
-    padding-bottom: 60px;
+    padding-top: 1.2rem;
+    padding-bottom: 3rem;
     background-color: #484E53;
   }
   nav{
+  
     background-color: #484E53;
   }
   #begin #zoek{
@@ -41,7 +45,7 @@
   h1 {
     padding: 0;
     margin: 0;
-    font-size: 23px;
+    font-size: 1.5rem;
   }
   
   #menu {
@@ -49,34 +53,31 @@
     flex-flow: row nowrap;
     list-style-type: none;
     justify-content: center;
-    
-    padding-bottom: 0.5em;
-   
-  
+    padding-bottom: 0.5rem;
   }
   #mainmenu li{
-    font-size: 12px ;
+    font-size: 1.5rem ;
   }
-  ul li img{
-    max-width: 50%;;
-  }
+ 
   
  
   
   #menu a {
     color: #ffffff;
     text-decoration: none;
-    padding: 15px;
+    padding: 0.8rem;
   
   }
   #menu li.active a{
-    border-bottom: 2px solid rgb(46, 78, 138);
+    border-bottom: 0.2rem solid rgb(46, 78, 138);
 }
 
-  ul li img{
-    max-width: 50px;
+ul li img{
+  max-width: 3.5rem;
+}
+  #menu li{
+    font-size: 1.4rem;
   }
-  
   #menu a:hover {
     color:  rgb(167, 66, 53) ;
     border-bottom: 2px solid rgb(46, 78, 138);
@@ -84,17 +85,17 @@
   }
   
   #inpSearch {
-    width: 21em;
+    width: 33.5rem;
     background: linear-gradient(rgba(0, 0, 0, 0.3),
     rgba(0, 0, 0, 0.596));
   color:  #41456e;
-    font-size: 1.2em;
-    text-decoration: none;
-    margin: 1.9em 0;
+  font-size: 1.7rem;
+  text-decoration: none;
+  margin: 1.9rem 0;
     border: 1px solid rgb(12, 12, 10);
-    border-radius: 4px;
-    padding: 0.4em 1.4em;
+    border-radius: 0.22rem;
+    padding: 0.4rem 1.4rem;
     text-transform: uppercase;
     justify-content: center;
-    margin-left: 9em;
+    margin-left: 4.5rem;
   }
