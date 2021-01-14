@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="nl">
-
+  
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,20 +18,58 @@
 <body>
   <header>
     <div class="wrapper">
-        <div id="mainmenu">
-            <h1><a href="home.html"><img src="img/logo_1.png" alt="logo van de winkel">Phone&co</a></h1>
-            <form action="#" id="begin" >
-                <label for="inpSearch"></label>
-                <input type="text" id="inpSearch" placeholder="Zoek hier jouw telefoonmodel">
-                <input  id="zoek" type="submit" value="Zoek">
-            </form>
-            <ul>
-              <li><a href="#"><img src="img/profile.png" alt=""><p>account aanmaken</p></a> </li>
-              <li><a href="#"><img src="img/login.png" alt=""> <p>Log in</p> </a></li>
-            </ul>
+      <nav id="mobilemenu" >
+        <div id="menuToggle">
+        
+          <input type="checkbox" />
+          
+      
+          <span></span>
+          <span></span>
+          <span></span>
+          
+         
+          <ul id="menu1">
+            <li><a href="home.html">homepagina</a></li>
+            <li><a href="herstellingen.html"> Herstellingen</a></li>
+            <li><a href="afspraak.html"> Afspraak</a></li>
+            <li><a href="Team.html">Onze Team</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#"><img src="img/profile.png" alt="">
+              account aanmaken
+            </a> </li>
+          <li><a href="#"><img src="img/login.png" alt="">
+              Log in
+            </a></li>
+            
+          </ul>
+        
         </div>
+      </nav>
+
+
+
+    <div id="LogoMobile">
+      <h1 ><a href="home.html"><img src="img/logo_1.png" alt="logo van de winkel">Phone&co</a></h1>
     </div>
-</header>
+      <div id="mainmenu">
+        <h1 ><a href="home.html"><img src="img/logo_1.png" alt="logo van de winkel">Phone&co</a></h1>
+        <form action="#" id="begin">
+          <label for="inpSearch"></label>
+          <input type="text" id="inpSearch" placeholder="Zoek hier jouw telefoonmodel">
+          <input id="zoek" type="submit" value="Zoek">
+        </form>
+        <ul>
+          <li><a href="#"><img src="img/profile.png" alt="">
+              account aanmaken
+            </a> </li>
+          <li><a href="#"><img src="img/login.png" alt="">
+             <p> Log in</p>
+            </a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
 
   <nav>
     <ul id="menu">
@@ -56,7 +94,7 @@
       <div><img src="img/winkel5.jpg" alt="foto van winkel"></div>
   </div>
     <div class="wrapper">
-        <section class="teamlid">
+        <section class="teamlid1">
           <div class="profielfoto"><img src="img/profiel5.jpeg" alt="profiel mohamed"></div>
           <h3>Mohamed</h3>
           <p>Manager</p>
@@ -69,7 +107,7 @@
             </ul>
           </div>
         </section>
-        <section class="teamlid">
+        <section class="teamlid2">
           <div class="profielfoto"><img src="img/profiel1.jpg" alt="profiel rayan"></div>
           <h3>Rayan</h3>
           <p>IT specialist</p>
@@ -81,7 +119,7 @@
             </ul>
           </div>
         </section>
-        <section class="teamlid">
+        <section class="teamlid3">
           <div class="profielfoto"><img src="img/profiel3.jfif" alt="profiel imrane"></div>
           <h3>imrane</h3>
           <p>Chauffeur</p>
@@ -93,7 +131,7 @@
             </ul>
           </div>
         </section>
-        <section class="teamlid">
+        <section class="teamlid4">
           <div class="profielfoto"><img src="img/profiel4.jpg" alt="profiel adil"></div>
           <h3>Adil</h3>
           <p>Secretaris</p>
@@ -124,7 +162,13 @@
           </ul>
           <div id="newsletter">
             <p>Abonneer hier voor het laatste nieuws over onze winkel</p>
-            <a href="#"><img src="img/mail0.png" alt=""></a>
+            <ul>
+             
+              <li> <a href="#" class="fa fa-envelope"></a></li>
+            
+             </ul>
+           
+           
           </div>
         </section>
 

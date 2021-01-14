@@ -27,12 +27,15 @@
    
 }
 .details{
-
+margin-left: 1rem;
 margin-top: 3.3rem;
  
 }
-
+.titleIphone{
+text-align: center;
+}
 .form {
+  display: block;
 color: #ffffff;
  overflow: hidden;
 max-width: 100%;
@@ -46,6 +49,7 @@ box-shadow: 0 0 0.5rem rgb(35, 85, 223);
 text-align: center;
 }
 input, select, textarea {
+
 margin-bottom: 1.7rem;
 border: 1px solid rgb(204, 204, 204);
 border-radius: 0.3rem;
@@ -55,9 +59,10 @@ width: calc(100% - 0.6rem);
 padding:  0.3rem;
 }
 textarea {
+  
 margin: 0px 0px 0.6rem;
   max-height: 5.6rem;
-width: calc(60% - 2.8rem);
+width: calc(60% - 0.5rem);
 padding: 0.3rem;
 }
 
@@ -74,16 +79,14 @@ color: red;
 }
 
 #personlijkeinfo {
-display: flex;
+display: block;
 flex-flow: row nowrap;
 justify-content: space-between;
 margin: 0 auto;
 }
 
 #btn{
-max-width: 10%;
-
-
+max-width: 30%;
 }
 #button{
 text-align: center;
@@ -96,6 +99,26 @@ flex-flow: column nowrap;
 align-items: center;
 }
 
+@media (min-width: 700px){
+  #personlijkeinfo{
+ display: flex;
+  }
+  #btn{
+    max-width: 10%;
+    }
+  }
+    @media (min-width: 500px){
+      .iphones{
+    
+      
+        justify-items: center;
+        
+         
+      }
+    }
+      
+       
+     
 
 
 

@@ -17,6 +17,9 @@ legend {
 	color: white;
 	background-color: rgb(41, 55, 182);
 }
+.personal{
+	display: block;
+}
 textarea {
 	margin: 0rem 0rem 0.625rem;
     max-height: 6.25rem;
@@ -70,7 +73,7 @@ input, select {
 }
 
 .columns {
-    display:flex;
+    display: block;
     flex-flow: row nowrap;
 	justify-content:space-between;
 	
@@ -81,12 +84,13 @@ input, select {
 
 
 #personelijk_info{
-    margin-bottom: 3.125rem;
+	margin-bottom: 3.125rem;
+	display: block;
 }
-#forms {
+.forms {
 margin: 1.25rem auto;
 padding-top: 0.625rem;
-
+display: block;
 }
 #problem{
     display: block;
@@ -98,3 +102,9 @@ main .wrapper{
     display: block;
     
 }
+@media (min-width: 730px){
+	.columns{
+      display: flex;
+	}
+}	
+

@@ -25,6 +25,7 @@
 margin-bottom: 1rem;
 }
 
+
 #btn {
     padding: 0.667rem 1.2rem;
     border: 0;
@@ -35,7 +36,7 @@ margin-bottom: 1rem;
     transition: 1s;
 }
 
-#name, #email,  #onderwp, #txt, #txt {
+#name, #email,  #onderwp, #txt {
     width: 100%;
     padding: 0.7rem 1.2rem;
     margin: 0.5rem 0;
@@ -44,16 +45,18 @@ margin-bottom: 1rem;
 }
 
 .form{
-    width: 45rem;
+  
     margin: 0 auto;
     padding: 15px;
     margin-top: 0.833rem;
-    display: flex;
+    display: block;
     margin-bottom: 3rem;
 }
 .gegevens {
     display: block;
     margin-top: 1rem;
+    text-align: center;
+    margin-bottom: 3rem;
 
 }
 .gegevens a{
@@ -107,10 +110,10 @@ margin-top: 5rem;
     padding-right: 1rem;
 }
 #info ul{
-    display: flex;
+    display: block;
     flex-flow:  row nowrap;
   list-style-type: none;
-  justify-content: center;
+  text-align: center;
   
 
 }
@@ -128,15 +131,20 @@ margin-top: 5rem;
 #info p{
     text-align: center;
 }
-.banner{
-    margin-top: 3rem;
-  
-   
-}
 
-.banner img{
-    margin-left: 46rem;
-    max-width: 30%;
-    max-height: 50%;
-     align-items  : center;
-}
+@media (min-width: 600px) {
+    #info ul{
+        display: flex;
+        justify-content: center;
+    }
+        .form{
+            display: flex;
+        }
+        #name,#email,  #onderwp, #txt {
+            width: 40%;
+        }
+    }
+
+
+
+  
