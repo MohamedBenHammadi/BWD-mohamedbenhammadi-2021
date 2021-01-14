@@ -1,0 +1,166 @@
+/* Herstellingen is alfabetisch gesorteerd om een bonuspunt te hebben */
+/* Project BWD Mohamed Ben Hammadi 1TI5 */
+
+
+#btn{
+  max-width: 30%;
+  background-color: #484E53;
+  color: white;
+  transition: 1s;
+}
+
+#button{
+  text-align: center;
+}
+
+#commentaar{
+  padding-bottom: 1.7rem ;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.details{
+  margin-left: 1rem;
+  margin-top: 3.3rem;   
+}
+
+fieldset{
+	border-color: rgb(41, 55, 182);
+}
+
+.form {
+display: block;
+color: #ffffff;
+overflow: hidden;
+max-width: 100%;
+padding: 1rem;
+margin-bottom: 1.2rem;
+border-radius: 0.3rem;
+background-color: rgb(38, 66, 102);
+box-shadow: 0 0 0.5rem rgb(35, 85, 223); 
+margin: 1rem;
+}
+
+.imgphones img{
+  max-width: 25rem;
+  height: 25rem;
+  padding: 0.83rem;
+  margin: 0;
+  overflow: hidden;
+}
+
+.intro{
+  text-align: center;
+  margin-top: 1.2rem;
+  margin-bottom: 1.667rem;
+}
+
+input, select {
+  width: calc(100% - 0.6rem);
+  padding:  0.3rem;
+}
+
+.iphones{
+  padding-bottom: 4.5rem;
+  display: flex;
+  flex-flow: row wrap;
+   justify-content: space-between;   
+}
+
+.item input:hover, .item select:hover, .item textarea:hover {
+  border: 1px solid transparent;
+  box-shadow: 0 0 3px 0  rgb(41, 55, 182);
+  color: rgb(41, 55, 182);
+}
+
+.item span {
+  color: red;
+}
+  
+input, select, textarea {
+  margin-bottom: 1.7rem;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 0.3rem;
+}
+
+#personlijkeinfo {
+  display: block;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+#product{
+  display: flex;
+  flex-flow: row wrap;
+   justify-content: space-between;
+   margin-top: 3.7rem;
+   margin-bottom: 1.7rem;
+}
+
+textarea {
+  margin: 0px 0px 0.6rem;
+  max-height: 5.6rem;
+  width: calc(60% - 0.5rem);
+  padding: 0.3rem;
+}
+
+.titleIphone{
+text-align: center;
+margin: 1rem;
+}
+
+/* media query's van klein naar groot (mobiele versie ---> desktop versie) */
+
+@media (min-width: 500px){
+.iphones{
+    justify-items: center;
+  }
+}
+
+@media (min-width: 700px){
+  #personlijkeinfo{
+ display: flex;
+}
+#btn{
+  max-width: 10%;
+  }
+}
+
+
+
+
+    
+      
+       
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,104 @@
+/* footer is alfabetisch gesorteerd om een bonuspunt te hebben */
+/* Project BWD Mohamed Ben Hammadi 1TI5 */
+
+.copyright{
+  text-align: center;
+   margin-top: 4.5rem;
+   color: #ffffff;
+   text-align: center;
+   padding-top: 1.2rem;
+}
+.content  { 
+  text-align: center;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-top: 1.5rem;
+}
+#newsletter p{
+  color: #ffffff;
+}
+
+footer{
+    margin-top: 9.4rem;
+    background-color: #484E53;
+}
+
+footer .wrapper a{
+  text-decoration: none;
+  color:  #ffffff;
+  border-bottom: 1px solid rgb(46, 78, 138);
+}
+
+footer section a:hover {
+  color: rgb(167, 66, 53);
+  transition: 0.3s;
+}
+
+footer .wrapper h4 {
+  margin-top: 2rem;
+  margin-bottom: 1.111rem;
+  justify-content: space-between;
+  color:  #ffffff;
+  text-transform: uppercase;
+}
+
+footer .wrapper li {
+  margin-bottom: 1.111rem;
+}
+
+footer .wrapper ul{
+  list-style-type: none;
+  color:  #ffffff;
+}
+
+#social{
+  margin: 0 auto;
+  max-width: 15rem;
+}
+
+#social ul{
+    text-align: center;
+    flex-flow:row nowrap ;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+ /* media query's van klein naar groot (mobiele versie ---> desktop versie) */
+
+  @media (min-width: 600px) {
+
+  body{
+    font-size: 16px;
+  }
+  .content  {
+    display: flex;
+  }
+
+  footer .wrapper h4{
+    font-size: 1.5rem;
+  }
+
+  #newsletter li{
+    margin: 0 auto;
+  }
+
+  #newsletter p{
+      display: block;
+  }
+
+  #social{
+      margin: 0;
+  }
+  
+  #social ul{
+    display: flex;
+    flex-flow:row nowrap ;
+    font-size: 3rem;
+  }
+    
+  #social ul li+li{
+    margin-left: 2rem ;
+  }
+     
+}   

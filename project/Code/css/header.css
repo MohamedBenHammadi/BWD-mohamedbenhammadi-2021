@@ -1,125 +1,118 @@
+/* Header is alfabetisch gesorteerd om een bonuspunt te hebben */
+/* Project BWD Mohamed Ben Hammadi 1TI5 */
+
+
+#begin #zoek{
+  display: none;
+}
+
+header{
+  padding-top: 1.2rem;
+  padding-bottom: 3rem;
+  background-color: #484E53;
+}
+
+h1{
+  padding: 0;
+  margin: 0;
+  font-size: 1.5rem;
+}
+#inpSearch {
+  width: 33.5rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.3),
+  rgba(0, 0, 0, 0.596));
+  font-size: 1.7rem;
+  margin: 1.9rem 0;
+  border: 1px solid rgb(12, 12, 10);
+  border-radius: 0.22rem;
+  padding: 0.4rem 1.4rem;
+  text-transform: uppercase;
+  margin-left: 4.5rem;
+  display: none;
+}
+
+#logoMobile a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  max-width: 30%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#logo a:hover{
+  color: rgb(167, 66, 53);
+}
+
 #mainmenu {
     display: none;
     flex-flow: row nowrap;
     justify-content: space-between;
-  
-  }
-  #mainmenu li+li{
-    padding-left: 1.2rem ;
-  }
-  #mainmenu ul {
-  display: none;
-    flex-flow: row nowrap;
-    list-style-type: none;
-    border-radius: 0.3rem;
-  
-  
-  }
-  
-  #mainmenu a {
+}
+
+#mainmenu a {
     display: none;
     color: #ffffff;
     text-decoration: none;
     max-width: 6.7rem;
     max-height: 6.7rem;
-  }
-  #mainmenu a:hover{
-    color: rgb(167, 66, 53);
-  }
-  #mainmenu ul li {
-    text-align: center;
-  }
-  header {
-    padding-top: 1.2rem;
-    padding-bottom: 3rem;
-    background-color: #484E53;
-  }
-  nav{
-  
-    background-color: #484E53;
-  }
-  #begin #zoek{
-    display: none;
-  }
-  
-  h1 {
-    padding: 0;
-    margin: 0;
-    font-size: 1.5rem;
-  }
-  
-  #menu {
-    display: none;
-    flex-flow: row nowrap;
-    list-style-type: none;
-    justify-content: center;
-    padding-bottom: 0.5rem;
-  }
-  #mainmenu li{
-    font-size: 1.5rem ;
-  }
-  
-  #LogoMobile a {
-    display: block;
-    color: #ffffff;
-    text-decoration: none;
-    max-width: 30%;
-    margin: 0 auto;
-    text-align: center;
-    
-  }
-  #Logo a:hover{
-    color: rgb(167, 66, 53);
-  }
- 
-  
-  #menu a {
-    color: #ffffff;
-    text-decoration: none;
-    padding: 0.8rem;
-  
-  }
-  #menu li.active a{
-    border-bottom: 0.2rem solid rgb(46, 78, 138);
 }
 
-ul li img{
-  max-width: 3.5rem;
+
+#mainmenu a:hover{
+    color: rgb(167, 66, 53);
 }
-  #menu li{
-    font-size: 1.4rem;
-  }
-  #menu a:hover {
-    color:  rgb(167, 66, 53) ;
-    border-bottom: 2px solid rgb(46, 78, 138);
-    transition: 0.1s;
-  }
-  
-  #inpSearch {
-    width: 33.5rem;
-    background: linear-gradient(rgba(0, 0, 0, 0.3),
-    rgba(0, 0, 0, 0.596));
-  color:  #41456e;
-  font-size: 1.7rem;
+
+#mainmenu li{
+  font-size: 1.5rem ;
+}
+
+#mainmenu li+li{
+    padding-left: 1.2rem ;
+}
+
+#mainmenu ul {
+  display: none;
+  flex-flow: row nowrap;
+  list-style-type: none;
+  border-radius: 0.3rem;
+}
+
+#mainmenu ul li {
+  text-align: center;
+}
+
+#menu {
+  display: none;
+  flex-flow: row nowrap;
+  list-style-type: none;
+  justify-content: center;
+  padding-bottom: 0.5rem;
+}
+
+#menu a {
+  color: #ffffff;
   text-decoration: none;
-  margin: 1.9rem 0;
-    border: 1px solid rgb(12, 12, 10);
-    border-radius: 0.22rem;
-    padding: 0.4rem 1.4rem;
-    text-transform: uppercase;
-    justify-content: center;
-    margin-left: 4.5rem;
-    display: none;
-  }
- 
- #mainmenu{
-   display: flex;
- }
- 
-   
-   
- 
-  #menuToggle
+  padding: 0.8rem;
+}
+
+#menu a:hover {
+  color:  rgb(167, 66, 53) ;
+  border-bottom: 0.3rem solid rgb(46, 78, 138);
+  transition: 0.1s;
+}
+
+#menu li{
+  font-size: 1.4rem;
+}
+
+#menu li.active a{
+  border-bottom: 0.3rem solid rgb(46, 78, 138);
+}
+
+/* Begin van het hamburgermenu */
+
+#menuToggle
   {
     display: block;
     position: relative;
@@ -236,7 +229,7 @@ ul li img{
     padding: 50px;
     padding-top: 125px;
     color: #000000;
-    background: #ffffff;
+    background: #F1F1F1;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
     /* to stop flickering of text in safari */
@@ -247,12 +240,11 @@ ul li img{
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
   }
   
-  #menu1 li
-  {
+  #menu1 li{
     padding: 10px 0;
     font-size: 22px;
-  }
-  
+}
+
   /*
    * And let's slide it in from the left
    */
@@ -260,59 +252,72 @@ ul li img{
   {
     transform: none;
   }
-  @media (min-width: 300px) {
-    #LogoMobile h1 img{
-      max-width: 100%;
-    }
+/* Einde van het hamburgermenu */
+nav{
+  background-color: #484E53;
+}
 
+ul li img{
+  max-width: 3.5rem;
+}
 
+/* media query's van klein naar groot (mobiele versie ---> desktop versie) */
 
+@media (min-width: 300px) {
 
+#logoMobile h1 img{
+  
+  max-width: 100%;
   }
-  @media (min-width: 400px) {
-    #LogoMobile h1 img{
+}
+
+@media (min-width: 400px) {
+
+  #logoMobile h1 img{
       max-width: 62%;
-    }
-
-
-
-
   }
+}
 
+@media (min-width: 600px){
 
+body{
+  font-size: 16px;
+}
 
-  @media (min-width: 600px) {
-    body{
-      font-size: 16px;
-    }
-    #menu {
-      display: flex;
-    }
-    #mobilemenu{
-       display: none;
-    }
-    #mainmenu{
-      display: flex;
-    }
-    #LogoMobile a{
-      display: none;
-      flex-flow:row nowrap ;
-      color: #ffffff;
-      text-decoration: none;
-      max-width: 40%;
-    }
-    #inpSearch {
+#inpSearch {
+  display: flex;
+}
 
-      display: flex;
-    }
-    #mainmenu {
-      display: flex;
-    }
-    #mainmenu ul {
-    display: flex;
-    }
+#logoMobile a{
+  display: none;
+  flex-flow:row nowrap ;
+  color: #ffffff;
+  text-decoration: none;
+  max-width: 40%;
+}
+
+#mainmenu{
+  display: flex;
+}
+
+#mainmenu {
+  display: flex;
+}
+
+#mainmenu ul {
+  display: flex;
+}
     
-    #mainmenu a {
-      display: block;
-    }
-  }
+#mainmenu a {
+  display: block;
+}
+
+#menu {
+  display: flex;
+}
+
+#mobilemenu{
+  display: none;    
+ }
+
+}

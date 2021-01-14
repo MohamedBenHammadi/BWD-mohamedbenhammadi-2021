@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <title> Afspraak</title>
+  <meta charset="utf-8">
+  <!-- link voor icones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- link voor css  -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/afspraak.css">
+</head>
+
+<body>
+  <header>
+
+    <!-- Ik heb een hamburgermenu gemaakt via deze website: https://codepen.io/erikterwan/pen/EVzeRP -->
+    <!-- Ik heb het kunnen maken dankzij deze Youtube Video: https://www.youtube.com/watch?v=ruw_w5PB4Rc -->
+    <!-- Auteur: Rogier Van Der Linde -->
+
+
+    <!-- BELANGRIJK: Deze website heeft geen comerciele doelen, zodra ik mijn punt gekregen van mijn project verwijder ik direct de foto's -->
+
+    <div class="wrapper">
+
+      <nav id="mobilemenu">
+        <div id="menuToggle">
+
+          <input type="checkbox" />
+
+          <span></span>
+          <span></span>
+          <span></span>
+
+       <!-- dit is het hamburgermenu -->
+          <ul id="menu1">
+            <li><a href="home.html">Homepagina</a></li>
+            <li><a href="herstellingen.html"> Herstellingen</a></li>
+            <li><a href="afspraak.html"> Afspraak</a></li>
+            <li><a href="Team.html">Onze Team</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#"><img src="img/profile.png" alt="">
+                Account aanmaken
+              </a> </li>
+            <li><a href="#"><img src="img/login.png" alt="">
+                Log in
+              </a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div id="logoMobile">
+        <h1><a href="home.html"><img src="img/logo_1.png" alt="logo van de winkel">Phone&co</a></h1>
+      </div>
+      <div id="mainmenu">
+        <h1><a href="home.html"><img src="img/logo_1.png" alt="logo van de winkel">Phone&co</a></h1>
+        <form action="#" id="begin">
+          <label for="inpSearch"></label>
+          <input type="text" id="inpSearch" placeholder="Zoek hier jouw telefoonmodel">
+          <input id="zoek" type="submit" value="Zoek">
+        </form>
+        <ul>
+          <li><a href="#"><img src="img/profile.png" alt="">
+              Account aanmaken
+            </a> </li>
+          <li><a href="#"><img src="img/login.png" alt="">
+              <p> Log in</p>
+            </a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+<!-- Dit is het normale menu -->
+  <nav>
+    <ul id="menu">
+      <li class="active"><a href="home.html">Homepagina</a></li>
+      <li><a href="herstellingen.html"> Herstellingen</a></li>
+      <li><a href="afspraak.html"> Afspraak</a></li>
+      <li><a href="Team.html">Onze Team</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+
+  <main>
+    <div class="wrapper">
+
+      <div class="intro">
+        <p>NEEM NU AFSPRAAK OM JE IPHONE ZO SNEL MOGELIJK TE HERSTELLEN</p>
+      </div>
+
+
+      <div id="forms">
+        <form action="#" id="personelijk_info" class="form">
+          <fieldset class="personal">
+            <legend>Persoonlijke informatie</legend>
+            <p>alle velden met een * zijn verplicht</p>
+            <div class="columns">
+              <p class="item">
+                <label for="fname">Voornaam<span>*</span></label>
+                <input id="fname" type="text" required placeholder="vb: Mohamed" name="fname" />
+              </p>
+              <p class="item">
+                <label for="lname">Familienaam<span>*</span></label>
+                <input id="lname" type="text" required placeholder="vb: Ben Hammadi" name="lname" />
+              </p>
+              <p class="item">
+                <label for="address">Emailadres<span>*</span></label>
+                <input id="address" type="text" required placeholder="vb: Mohamed@outlook.com" name="address" />
+              </p>
+              <p class="item">
+                <label for="phone">Telefoonnummer</label>
+                <input id="phone" type="text" placeholder="vb: 04848563256" name="phone" />
+              </p>
+              <p class="item">
+                <label for="saddress">Adres</label>
+                <input id="saddress" type="text" placeholder="vb: Joseph Straat" name="city" />
+              </p>
+              <p class="item">
+                <label for="stad">Stad</label>
+                <input id="stad" type="text" placeholder="vb: Brussel" name="city" />
+              </p>
+              <p class="item">
+                <label for="pcode">Postcode</label>
+                <input id="pcode" type="text" placeholder="vb: 1030" name="zip" />
+              </p>
+            </div>
+          </fieldset>
+        </form>
+
+        <form action="#" class="form">
+          <fieldset class="other">
+            <legend>Afspraak</legend>
+            <div class="columns">
+              <div class="item">
+                <label for="date">Datum<span>*</span></label>
+                <input id="date" type="date" name="date" />
+              </div>
+              <div class="item">
+                <label for="hour">Uur<span>*</span></label>
+                <input id="hour" type="time" name="hour" />
+              </div>
+              <div class="item">
+                <label for="brand">Iphone<span>*</span></label>
+                <select id="brand">
+                  <option value="X">X</option>
+                  <option value="11">11</option>
+                  <option value="11Pro">11 Pro</option>
+                  <option value="Xs">Xs</option>
+                  <option value="Xr">Xr</option>
+                  <option value="Xs Max">Xs Max</option>
+                  <option value="Andere">...</option>
+                </select>
+              </div>
+            </div>
+
+            <div id="titlearea">
+              <label for="problem">Beschrijf kort het probleem</label>
+              <textarea id="problem" cols="68" rows="10"></textarea>
+              <div id="btn">
+                <input type="submit" value="Stuur">
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrapper">
+      <div class="content">
+        <section id="social">
+          <h4>FOLLOW US</h4>
+          <ul>
+            <li><a href="#" class="fa fa-facebook"></a></li>
+            <li><a href="#" class="fa fa-snapchat"></a></li>
+            <li><a href="#" class="fa fa-instagram"></a></li>
+            <li><a href="#" class="fa fa-whatsapp"></a></li>
+          </ul>
+          <div id="newsletter">
+            <p>Abonneer hier voor het laatste nieuws over onze winkel</p>
+            <ul>
+              <li> <a href="#" class="fa fa-envelope"></a></li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h4>Klantenservices</h4>
+          <ul>
+            <li><a href="#" title="Home">Contact</a></li>
+            <li><a href="#" title="Werkwijze">Garantie</a></li>
+            <li><a href="#" title="Ontwerpen">Betalen</a></li>
+          </ul>
+        </section>
+
+        <section>
+          <h4>About</h4>
+          <ul>
+            <li><a href="#" title="Voorwaarden">Voorwaarden</a></li>
+            <li><a href="#" title="Privacy Policy">Privacy Policy</a></li>
+            <li><a href="#" title="FAQ">FAQ</a></li>
+          </ul>
+        </section>
+
+        <section>
+          <h4>Zakelijk</h4>
+          <ul>
+            <li><a href="#" title="Twitter">Snelle services</a></li>
+            <li><a href="#" title="Facebook">Leveringen</a></li>
+          </ul>
+        </section>
+      </div>
+      <div class="copyright">
+        <small>Copyright 2021 © Phone&co | PRIVACY POLICY | DESIGN BY Mohamed Ben Hammadi</small>
+      </div>
+    </div>
+  </footer>
+
+
+
+</body>
+
+</html>

@@ -5,72 +5,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>herstelingen</title>
-  <!-- link voor icones -->
+    <!-- link voor icones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- link voor css -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/herstellingen.css">
 </head>
+<!-- Ik heb een hamburgermenu gemaakt via deze website: https://codepen.io/erikterwan/pen/EVzeRP -->
+<!-- Ik heb het kunnen maken dankzij deze Youtube Video: https://www.youtube.com/watch?v=ruw_w5PB4Rc -->
+<!-- Auteur: Rogier Van Der Linde -->
+
+<!-- BELANGRIJK: Deze website heeft geen comerciele doelen, zodra ik mijn punt gekregen van mijn project verwijder ik direct de foto's -->
 
 <body>
     <header>
         <div class="wrapper">
-          <nav id="mobilemenu" >
-            <div id="menuToggle">
+            <nav id="mobilemenu">
+                <div id="menuToggle">
+
+                    <input type="checkbox" />
+
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                    <!-- dit is het hamburgermenu -->
+                    <ul id="menu1">
+                        <li><a href="home.html">Homepagina</a></li>
+                        <li><a href="herstellingen.html"> Herstellingen</a></li>
+                        <li><a href="afspraak.html"> Afspraak</a></li>
+                        <li><a href="Team.html">Onze Team</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#"><img src="img/profile.png" alt="">
+                                Account aanmaken
+                            </a> </li>
+                        <li><a href="#"><img src="img/login.png" alt="">
+                                Log in
+                            </a></li>
+                    </ul>
+                </div>
+            </nav>
+
+
             
-              <input type="checkbox" />
-              
-          
-              <span></span>
-              <span></span>
-              <span></span>
-              
-             
-              <ul id="menu1">
-                <li><a href="home.html">homepagina</a></li>
-                <li><a href="herstellingen.html"> Herstellingen</a></li>
-                <li><a href="afspraak.html"> Afspraak</a></li>
-                <li><a href="Team.html">Onze Team</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="#"><img src="img/profile.png" alt="">
-                  account aanmaken
-                </a> </li>
-              <li><a href="#"><img src="img/login.png" alt="">
-                  Log in
-                </a></li>
-                
-              </ul>
-            
+
+            <div id="logoMobile">
+                <h1><a href="home.html"><img src="img/logo_1.png" alt="logo van de winkel">Phone&co</a></h1>
             </div>
-          </nav>
-    
-    
-    
-        <div id="LogoMobile">
-          <h1 ><a href="home.html"><img src="img/logo_1.png" alt="logo van de winkel">Phone&co</a></h1>
+            <div id="mainmenu">
+                <h1><a href="home.html"><img src="img/logo_1.png" alt="logo van de winkel">Phone&co</a></h1>
+                <form action="#" id="begin">
+                    <label for="inpSearch"></label>
+                    <input type="text" id="inpSearch" placeholder="Zoek hier jouw telefoonmodel">
+                    <input id="zoek" type="submit" value="Zoek">
+                </form>
+                <ul>
+                    <li><a href="#"><img src="img/profile.png" alt="">
+                            Account aanmaken
+                        </a> </li>
+                    <li><a href="#"><img src="img/login.png" alt="">
+                            <p> Log in</p>
+                        </a></li>
+                </ul>
+            </div>
         </div>
-          <div id="mainmenu">
-            <h1 ><a href="home.html"><img src="img/logo_1.png" alt="logo van de winkel">Phone&co</a></h1>
-            <form action="#" id="begin">
-              <label for="inpSearch"></label>
-              <input type="text" id="inpSearch" placeholder="Zoek hier jouw telefoonmodel">
-              <input id="zoek" type="submit" value="Zoek">
-            </form>
-            <ul>
-              <li><a href="#"><img src="img/profile.png" alt="">
-                  account aanmaken
-                </a> </li>
-              <li><a href="#"><img src="img/login.png" alt="">
-                 <p> Log in</p>
-                </a></li>
-            </ul>
-          </div>
-        </div>
-      </header>
+    </header>
+    <!-- Dit is het normale menu -->
     <nav>
         <ul id="menu">
 
-            <li class="active"><a href="home.html">homepagina</a></li>
+            <li class="active"><a href="home.html">Homepagina</a></li>
             <li><a href="herstellingen.html"> Herstellingen</a></li>
             <li><a href="afspraak.html"> Afspraak</a></li>
             <li><a href="Team.html">Onze Team</a></li>
@@ -150,10 +155,10 @@
                 </section>
                 <section class="iphones">
                     <div class="titleIphone">
-                    <h3>iPhone8 en iphone 8plus </h3>
-                    <div class="imgphones">
-                        <img src="img/iphone8&Plus.png" alt="">
-                    </div>
+                        <h3>iPhone8 en iphone 8plus </h3>
+                        <div class="imgphones">
+                            <img src="img/iphone8&Plus.png" alt="">
+                        </div>
                     </div>
                     <div class="details">
                         <p>Scherm gebroken en/of LCD defect</p>
@@ -198,47 +203,46 @@
                 <p>Voor andere Iphones toestellen gelieve het formulier in te vullen</p>
             </div>
 
-
             <form action="#" class="form">
                 <fieldset class="other">
                     <div class="columns">
                         <div id="row">
-                            <div id="personlijkeinfo">  
-                            <p class="item">
-                                <label for="fname">Voornaam<span>*</span></label>
-                                <input id="fname" type="text" required placeholder="jouw naam" name="fname" />
-                            </p>
-                            <p class="item">
-                                <label for="lname"> Achternaam<span>*</span></label>
-                                <input id="lname" type="text" required placeholder="jouw achternaam" name="lname" />
-                            </p>
-                            <p class="item">
-                                <label for="address">Emailadres<span>*</span></label>
-                                <input id="address" type="text" required placeholder="jouw e-mail" name="address" />
-                            </p>
-                            <p class="item">
-                                <label for="brand">model van Iphone<span>*</span></label>
-                                <select id="brand">
-                                    <option value="Samsung">6</option>
-                                    <option value="Iphone">6s</option>
-                                    <option value="Huawei">6 plus</option>
-                                    <option value="Nokia">5</option>
-                                    <option value="Wiko">5s</option>
-                                    <option value="Sony">5C</option>
-                                    <option value="Andere">...</option>
-                                </select>
-                            </p>
+                            <div id="personlijkeinfo">
+                                <p class="item">
+                                    <label for="fname">Voornaam<span>*</span></label>
+                                    <input id="fname" type="text" required placeholder="jouw naam" name="fname" />
+                                </p>
+                                <p class="item">
+                                    <label for="lname"> Achternaam<span>*</span></label>
+                                    <input id="lname" type="text" required placeholder="jouw achternaam" name="lname" />
+                                </p>
+                                <p class="item">
+                                    <label for="address">Emailadres<span>*</span></label>
+                                    <input id="address" type="text" required placeholder="jouw e-mail" name="address" />
+                                </p>
+                                <p class="item">
+                                    <label for="brand">model van Iphone<span>*</span></label>
+                                    <select id="brand">
+                                        <option value="6">6</option>
+                                        <option value="6s">6s</option>
+                                        <option value="6 Plus">6 plus</option>
+                                        <option value="5">5</option>
+                                        <option value="5s">5s</option>
+                                        <option value="5C">5C</option>
+                                        <option value="Andere">...</option>
+                                    </select>
+                                </p>
                             </div>
-                         
+
                             <p id="commentaar">
-                            <label for="problem">Beschrijf in 3-4 zinnen wat het probleem is</label>
-                            <textarea id="problem" cols="30" rows="10"></textarea>
+                                <label for="problem">Beschrijf in 3-4 zinnen wat het probleem is</label>
+                                <textarea id="problem" cols="30" rows="10"></textarea>
                             </p>
-                            <p id="button" >
-                            <input id="btn" type="submit" value="Stuur">
+                            <p id="button">
+                                <input id="btn" type="submit" value="Stuur">
                             </p>
                         </div>
-                        </div>
+                    </div>
                 </fieldset>
             </form>
         </div>
@@ -257,22 +261,22 @@
                     <div id="newsletter">
                         <p>Abonneer hier voor het laatste nieuws over onze winkel</p>
                         <ul>
-                         
-                          <li> <a href="#" class="fa fa-envelope"></a></li>
-                        
-                         </ul>
+
+                            <li> <a href="#" class="fa fa-envelope"></a></li>
+
+                        </ul>
                     </div>
                 </section>
                 <section>
-                    <h4>klantenservices</h4>
+                    <h4>Klantenservices</h4>
                     <ul>
-                        <li><a href="#" title="Home">contact</a></li>
-                        <li><a href="#" title="Werkwijze">garantie</a></li>
-                        <li><a href="#" title="Ontwerpen">betalen</a></li>
+                        <li><a href="#" title="Home">Contact</a></li>
+                        <li><a href="#" title="Werkwijze">Garantie</a></li>
+                        <li><a href="#" title="Ontwerpen">Betalen</a></li>
                     </ul>
                 </section>
                 <section>
-                    <h4>about</h4>
+                    <h4>About</h4>
                     <ul>
                         <li><a href="#" title="Voorwaarden">Voorwaarden</a></li>
                         <li><a href="#" title="Privacy Policy">Privacy Policy</a></li>
@@ -281,7 +285,7 @@
                 </section>
 
                 <section>
-                    <h4>zakelijk</h4>
+                    <h4>Zakelijk</h4>
                     <ul>
                         <li><a href="#" title="Twitter">Snelle services</a></li>
                         <li><a href="#" title="Facebook">Leveringen</a></li>
@@ -289,11 +293,11 @@
                 </section>
             </div>
             <div class="copyright">
-                <small>Copyright 2020 © Phone&co | PRIVACY POLICY | DESIGN BY Mohamed Ben Hammadi</small>
+                <small>Copyright 2021 © Phone&co | PRIVACY POLICY | DESIGN BY Mohamed Ben Hammadi</small>
             </div>
         </div>
     </footer>
-   
+
 </body>
 
 </html>

@@ -1,22 +1,32 @@
+/* Team is alfabetisch gesorteerd om een bonuspunt te hebben */
+/* Project BWD Mohamed Ben Hammadi 1TI5 */
+
+
+.banner{
+  margin-top: 3rem;
+}
+
+.banner img{
+  margin: 0 auto;
+  max-width: 90%;
+}
+
 #intro{
   text-align: center;
   margin-bottom: 1.7rem;
-
 }
+
 main{
   padding-top: 2rem;
 }
- main .wrapper {
+
+main .wrapper {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  
+  padding-top: 2rem;
 }
- .teamlid1, .teamlid2, .teamlid3, .teamlid4  {
-  text-align: center;
-  margin-bottom: 0px;
-  margin-top: 2.8rem;
-}
+
 .profielfoto {
   margin-bottom: 0.9rem;
   overflow: hidden;
@@ -28,6 +38,16 @@ main{
   height: 110%;
   padding: 1rem;
   margin: 0;
+}
+
+#team .teamlid .Socialemedia a:hover {
+  color: black;
+}
+
+.teamlid1, .teamlid2, .teamlid3, .teamlid4 {
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 2.8rem;
 }
 
 .teamlid1 h3, .teamlid2 h3, .teamlid3 h3, .teamlid4  h3 {
@@ -47,17 +67,12 @@ main{
   margin-bottom: 2.8rem;
   justify-content: space-between;
 }
-.Socialemedia ul{
-  
-  display: flex;
-  flex-flow:row nowrap ;
-  font-size: 2.7rem;
- 
-}
+
 .Socialemedia a {
   color: rgb(33, 100, 163);
   text-decoration: none;
 }
+
 .Socialemedia a:hover{
   color: rgb(167, 66, 53);
 }
@@ -66,45 +81,41 @@ main{
   list-style-type: none;
   margin: 0 auto;
 }
+
+.Socialemedia ul{
+  display: flex;
+  flex-flow:row nowrap ;
+  font-size: 2.7rem;
+}
+
 .Socialemedia ul li+li{
   margin-left: 1.7rem ;
-  }
-#team .teamlid .Socialemedia a:hover {
-  color: black;
 }
 
+ /* media query's van klein naar groot (mobiele versie ---> desktop versie) */
 
-
-
-.banner{
-  margin-top: 3rem;
-}
-
-.banner img{
-  margin: 0 auto;
-  max-width: 90%;
-  
-
-}
 @media (min-width: 600px){
   .banner img{
     margin: 0 auto;
     max-width: 40%;
-    
-  
   }
+} 
  
-  @media (min-width: 1000px){
-    .banner img{
-      margin: 0 auto;
-      max-width: 40%;
-    }
-      main .wrapper{
-        display: flex;
-     
-      }
-    
-    
+@media (min-width: 1000px){
+  .banner img{
+    margin: 0 auto;
+    max-width: 30%;
+  }
+
+  main .wrapper{
+    display: flex;
   }
 }
+
+@media (min-width: 1200px){
+.teamlid1, .teamlid2, .teamlid3, .teamlid4 {
+    margin-left: 5rem;
+  }
+}
+
 
