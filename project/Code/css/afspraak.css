@@ -5,8 +5,8 @@
 .box {
     display: flex;
     flex-flow: row nowrap;
-	justify-content: center;
-	padding:0.313rem;
+	  justify-content: center;
+	  padding:0.313rem;
 }
 
 #btn{
@@ -18,8 +18,7 @@
 .columns {
     display: block;
     flex-flow: row nowrap;
-	justify-content:space-between;
-
+ 	  justify-content:space-between;
 }
 
 .columns div {
@@ -27,8 +26,9 @@
 }
 
 main {
-    margin-bottom: 15rem;
     color: #ffffff;
+    margin-bottom: 15rem;
+    padding-top: 1.5rem;
 }
 
 fieldset{
@@ -36,19 +36,19 @@ fieldset{
 }
 
 .form {
+   background-color: rgb(38, 66, 102);
+   border-radius: 0.375rem;
+   box-shadow: 0 0 8px rgb(35, 85, 223); 
+   margin-bottom: 1.25rem;
+   margin: 1rem;
    overflow: hidden;
    padding: 1.25rem;
-   margin-bottom: 1.25rem;
-   border-radius: 0.375rem;
-   background-color: rgb(38, 66, 102);
-   box-shadow: 0 0 8px rgb(35, 85, 223); 
-   margin: 1rem;
 }
 
 .forms {
+  display: block;
   margin: 1.25rem auto;
   padding-top: 0.625rem;
-  display: block;
 }
 
 input[type=text]{
@@ -57,7 +57,7 @@ input[type=text]{
 
 input, select, textarea {
   border: 1px solid rgb(204, 204, 204);
-  border-radius: 3px;
+  border-radius: 0.20rem;
 }
 
 input, textarea{
@@ -65,26 +65,26 @@ input, textarea{
 }
 
 input, select {
- width: calc(100% - 0.625rem);
  padding: 0.313rem;
+ width: calc(100% - 0.625rem);
 }
 
 .intro {
+  background-color: #484E53;
   color: #ffffff;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
   margin: 0 auto;
   max-width: 40%;
-  background-color: #484E53;
   text-align: center;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
 }
 
 .item{
 display: flex;
 flex-flow: column nowrap ;
 justify-content: center;
-text-align: center;
 margin: 0 	auto;
+text-align: center;
 }
 
 .item span {
@@ -98,10 +98,10 @@ color: rgb(38, 76, 202);
 }
 
 legend {
-padding: 0.625rem;      
-font-size: 1.125rem;
-color: white;
 background-color: rgb(41, 55, 182);
+color: white;
+font-size: 1.125rem;
+padding: 0.625rem;      
 }
 
 main .wrapper{
@@ -113,8 +113,8 @@ display: block;
 }
 
 #personelijk_info{
-	margin-bottom: 3.125rem;
 	display: block;	
+	margin-bottom: 3.125rem;
 }
 
 #problem{
@@ -123,22 +123,22 @@ display: block;
 
 textarea {
 border: none;
-outline: none;
-max-width: 19rem;
 max-height: 10rem;
+max-width: 19rem;
+outline: none;
 }
 
 #titlearea{
-text-align: center;
 margin: 0;
+text-align: center;
 }
 
 /* media query's van klein naar groot (mobiele versie ---> desktop versie) */
 
 @media (min-width: 400px){
     textarea {
-	max-width: 30rem;
 	max-height: 10rem;
+	max-width: 30rem;
 	}
 }	
 

@@ -12,8 +12,8 @@
 }
 
 #intro{
-  text-align: center;
   margin-bottom: 1.7rem;
+  text-align: center;
 }
 
 main{
@@ -28,16 +28,16 @@ main .wrapper {
 }
 
 .profielfoto {
+  height: 22rem;
   margin-bottom: 0.9rem;
   overflow: hidden;
-  height: 22rem;
 }
 
 .profielfoto img {
-  max-width: 110%;
   height: 110%;
-  padding: 1rem;
   margin: 0;
+  max-width: 110%;
+  padding: 1rem;
 }
 
 #team .teamlid .Socialemedia a:hover {
@@ -45,27 +45,27 @@ main .wrapper {
 }
 
 .teamlid1, .teamlid2, .teamlid3, .teamlid4 {
-  text-align: center;
   margin-bottom: 0px;
   margin-top: 2.8rem;
+  text-align: center;
 }
 
 .teamlid1 h3, .teamlid2 h3, .teamlid3 h3, .teamlid4  h3 {
   color: black;
-  margin-bottom: 0.2rem;
   font-size: 1.7rem;
+  margin-bottom: 0.2rem;
 }
 
 .teamlid1 p, .teamlid2 p, .teamlid3 p, .teamlid4 p {
-  font-style: italic;
   display: block;
   font-size: 1.2rem;
+  font-style: italic;
 }
 
 .Socialemedia {
-  margin-top: 0.84rem;
-  margin-bottom: 2.8rem;
   justify-content: space-between;
+  margin-bottom: 2.8rem;
+  margin-top: 0.84rem;
 }
 
 .Socialemedia a {

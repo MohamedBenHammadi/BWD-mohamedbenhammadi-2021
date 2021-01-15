@@ -2,32 +2,32 @@
 /* Project BWD Mohamed Ben Hammadi 1TI5 */
 
 .copyright{
-  text-align: center;
-   margin-top: 4.5rem;
    color: #ffffff;
-   text-align: center;
+   margin-top: 4.5rem;
    padding-top: 1.2rem;
+   text-align: center;
+  text-align: center;
 }
 .content  { 
-  text-align: center;
   flex-flow: row nowrap;
   justify-content: space-between;
   list-style-type: none;
   padding-top: 1.5rem;
+  text-align: center;
 }
 #newsletter p{
   color: #ffffff;
 }
 
 footer{
-    margin-top: 9.4rem;
     background-color: #484E53;
+    margin-top: 9.4rem;
 }
 
 footer .wrapper a{
-  text-decoration: none;
-  color:  #ffffff;
   border-bottom: 1px solid rgb(46, 78, 138);
+  color:  #ffffff;
+  text-decoration: none;
 }
 
 footer section a:hover {
@@ -36,10 +36,10 @@ footer section a:hover {
 }
 
 footer .wrapper h4 {
-  margin-top: 2rem;
-  margin-bottom: 1.111rem;
-  justify-content: space-between;
   color:  #ffffff;
+  justify-content: space-between;
+  margin-bottom: 1.111rem;
+  margin-top: 2rem;
   text-transform: uppercase;
 }
 
@@ -48,8 +48,8 @@ footer .wrapper li {
 }
 
 footer .wrapper ul{
-  list-style-type: none;
   color:  #ffffff;
+  list-style-type: none;
 }
 
 #social{
@@ -58,9 +58,9 @@ footer .wrapper ul{
 }
 
 #social ul{
-    text-align: center;
     flex-flow:row nowrap ;
     font-size: 3rem;
+    text-align: center;
     text-decoration: none;
 }
 
@@ -69,7 +69,7 @@ footer .wrapper ul{
   @media (min-width: 600px) {
 
   body{
-    font-size: 16px;
+    font-size: 1.1rem;
   }
   .content  {
     display: flex;

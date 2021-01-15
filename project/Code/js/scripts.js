@@ -1,3 +1,8 @@
+
+
+// Zie video Rogier van der linde deel6: carousel
+// https://www.youtube.com/watch?v=YrYdEKBo7c8&t=162s
+
 $(document).ready(function(){
     $('.banner').slick({
       dots: true ,

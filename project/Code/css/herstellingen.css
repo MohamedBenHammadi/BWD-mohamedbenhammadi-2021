@@ -3,9 +3,9 @@
 
 
 #btn{
-  max-width: 30%;
   background-color: #484E53;
   color: white;
+  max-width: 30%;
   transition: 1s;
 }
 
@@ -14,10 +14,10 @@
 }
 
 #commentaar{
-  padding-bottom: 1.7rem ;
+  align-items: center;
   display: flex;
   flex-flow: column nowrap;
-  align-items: center;
+  padding-bottom: 1.7rem ;
 }
 
 .details{
@@ -30,42 +30,42 @@ fieldset{
 }
 
 .form {
-display: block;
-color: #ffffff;
-overflow: hidden;
-max-width: 100%;
-padding: 1rem;
-margin-bottom: 1.2rem;
-border-radius: 0.3rem;
 background-color: rgb(38, 66, 102);
+border-radius: 0.3rem;
 box-shadow: 0 0 0.5rem rgb(35, 85, 223); 
+color: #ffffff;
+display: block;
+margin-bottom: 1.2rem;
 margin: 1rem;
+max-width: 100%;
+overflow: hidden;
+padding: 1rem;
 }
 
 .imgphones img{
-  max-width: 25rem;
   height: 25rem;
-  padding: 0.83rem;
   margin: 0;
+  max-width: 25rem;
   overflow: hidden;
+  padding: 0.83rem;
 }
 
 .intro{
-  text-align: center;
-  margin-top: 1.2rem;
   margin-bottom: 1.667rem;
+  margin-top: 1.2rem;
+  text-align: center;
 }
 
 input, select {
-  width: calc(100% - 0.6rem);
   padding:  0.3rem;
+  width: calc(100% - 0.6rem);
 }
 
 .iphones{
-  padding-bottom: 4.5rem;
+   justify-content: space-between;   
   display: flex;
   flex-flow: row wrap;
-   justify-content: space-between;   
+  padding-bottom: 4.5rem;
 }
 
 .item input:hover, .item select:hover, .item textarea:hover {
@@ -79,9 +79,9 @@ input, select {
 }
   
 input, select, textarea {
-  margin-bottom: 1.7rem;
-  border: 1px solid rgb(204, 204, 204);
   border-radius: 0.3rem;
+  border: 1px solid rgb(204, 204, 204);
+  margin-bottom: 1.7rem;
 }
 
 #personlijkeinfo {
@@ -92,23 +92,23 @@ input, select, textarea {
 }
 
 #product{
+   justify-content: space-between;
+   margin-bottom: 1.7rem;
+   margin-top: 3.7rem;
   display: flex;
   flex-flow: row wrap;
-   justify-content: space-between;
-   margin-top: 3.7rem;
-   margin-bottom: 1.7rem;
 }
 
 textarea {
   margin: 0px 0px 0.6rem;
   max-height: 5.6rem;
-  width: calc(60% - 0.5rem);
   padding: 0.3rem;
+  width: calc(60% - 0.5rem);
 }
 
 .titleIphone{
-text-align: center;
 margin: 1rem;
+text-align: center;
 }
 
 /* media query's van klein naar groot (mobiele versie ---> desktop versie) */

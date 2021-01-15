@@ -2,28 +2,28 @@
 /* Project BWD Mohamed Ben Hammadi 1TI5 */
 
 #btn {
-padding: 0.667rem 1.2rem;
-border: 0;
-border-radius: 0.222rem;
 background-color: #484E53;
+border-radius: 0.222rem;
+border: 0;
 color: white;
 display: block;
+padding: 0.667rem 1.2rem;
 transition: 1s;
 }
 
 .form{  
-margin: 0 auto;
-padding: 15px;
-margin-top: 0.833rem;
 display: block;
 margin-bottom: 3rem;
+margin-top: 0.833rem;
+margin: 0 auto;
+padding: 1rem;
 }
 
 .gegevens {
 display: block;
+margin-bottom: 3rem;
 margin-top: 1rem;
 text-align: center;
-margin-bottom: 3rem;
 }
 
 .gegevens p{
@@ -32,19 +32,19 @@ margin-bottom: 1.3rem;
 
 #google{
 align-items: center;
-margin-bottom: 2.8rem;
 justify-content: center;
+margin-bottom: 2.8rem;
 }
 
 .gegevens a{
-text-decoration: none;
 color: #000000;
 font-size: 2.5rem;  
+text-decoration: none;
 }
 
 .gegevens p {
-padding-top: 0.5rem;
 font-size: 1.5rem;
+padding-top: 0.5rem;
 }
 
 h2{
@@ -52,8 +52,8 @@ padding-bottom: 0.5rem;
 }
 
 h3{
-text-align: center;
 padding-bottom: 1rem;
+text-align: center;
 }
 
 #info {
@@ -65,8 +65,8 @@ color: #b80a0a;
 }
 
 #info li{
-padding-top: 2.8rem;
 margin-top: 1.2rem;
+padding-top: 2.8rem;
 padding: 2.8rem;
 }
 
@@ -82,17 +82,17 @@ text-align: center;
 }
 
 #intro{
-text-align: center;
-margin-top: 1.7rem;
 margin-bottom: 1.7rem;
+margin-top: 1.7rem;
+text-align: center;
 }
 
 #intro .social{
-list-style: none;
 display: flex;
 flex-flow:row nowrap ;
-justify-content: center;
 font-size: 2.8rem;
+justify-content: center;
+list-style: none;
 }
 
 #intro .social a {
@@ -112,29 +112,29 @@ margin: 1rem;
 }
 
 #locatie li{
-margin-top: 1.7rem;
 list-style-type: none;
+margin-top: 1.7rem;
 padding-bottom: 1.2rem;
 }
 
 #locatie li::before {
-content: "►";
 color: #484E53;
+content: "►";
 padding-right: 1rem;
 }
 
 #openingsuren{
-text-align: center;
 padding-bottom: 1.2rem;
+text-align: center;
 }
 
 #name, #email, #onderwp, #txt {
-width: 100%;
-padding: 0.7rem 1.2rem;
- margin: 0.5rem 0;
-border: 1px solid rgb(204, 204, 204);
+margin: 0.5rem 0;
 border-radius: 0.3rem;
+border: 1px solid rgb(204, 204, 204);
 margin-bottom: 1rem;
+padding: 0.7rem 1.2rem;
+width: 100%;
 }
 
 .txtgebruiker {
