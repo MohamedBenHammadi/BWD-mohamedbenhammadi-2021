@@ -27,7 +27,6 @@
 
 main {
     color: #ffffff;
-    margin-bottom: 15rem;
     padding-top: 1.5rem;
 }
 
@@ -114,7 +113,8 @@ display: block;
 
 #personelijk_info{
 	display: block;	
-	margin-bottom: 3.125rem;
+  margin-bottom: 3.125rem;
+  margin-top: 2rem;
 }
 
 #problem{
