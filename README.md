@@ -8,7 +8,7 @@
 * Klas: 1TI/5
 * Foto: ![](foto.JPG)
 
-* Domeinnaam: phoneandco.eu 
+* Domeinnaam: https://phoneandco.eu/
 
 * Uitleg: Mijn website heeft als doel om Iphones te herstellen, Ik heb deze onderwerp gekozen omdat mijn vriend een winkel heeft dat gewoon Iphones hersteld.
 
