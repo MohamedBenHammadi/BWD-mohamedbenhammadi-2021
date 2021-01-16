@@ -14,6 +14,7 @@
   list-style-type: none;
   padding-top: 1.5rem;
   text-align: center;
+  padding: 1.2rem;
 }
 #newsletter p{
   color: #ffffff;
@@ -67,10 +68,6 @@ footer .wrapper ul{
  /* media query's van klein naar groot (mobiele versie ---> desktop versie) */
 
   @media (min-width: 600px) {
-
-  body{
-    font-size: 1.1rem;
-  }
   .content  {
     display: flex;
   }

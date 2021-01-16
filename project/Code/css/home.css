@@ -45,13 +45,17 @@ img {
 
 /* -------------------------------------------Header Home------------------------------------- */
 
+#begin{
+  margin-top: 0rem;
+}
+
 #begin #zoek {
   display: none;
 }
 
 header {
   padding-top: 1.2rem;
-  padding-bottom: 3.3rem;
+  padding-bottom: 1rem;
 }
 
 h1 a {
@@ -349,12 +353,14 @@ ul li img {
   color: #ffffff;
   padding-top: 1.2rem;
   text-align: center;
+
 }
 .content {
   justify-content: space-between;
   list-style-type: none;
   margin-top: 4rem;
   text-align: center;
+  padding: 1.2rem;
 }
 
 footer .wrapper a {
@@ -474,27 +480,6 @@ footer section ul li a:hover {
     padding-bottom: 2.2rem;
   }
 
-  #logoMobile {
-    color: #ffffff;
-    display: none;
-    flex-flow: row nowrap;
-    margin: 0 auto;
-    max-width: 30%;
-    text-decoration: none;
-  }
-
-  #mainmenu {
-    display: flex;
-  }
-
-  #menu {
-    display: flex;
-  }
-
-  #mobilemenu {
-    display: none;
-  }
-
   #newsletter li {
     margin: 0 auto;
   }
@@ -524,6 +509,34 @@ footer section ul li a:hover {
     text-decoration: none;
   }
 
+  @media (min-width: 700px) {
+
+    header{
+      padding: 1rem;
+    }
+
+    #mainmenu {
+      display: flex;
+    }
+  
+    #menu {
+      display: flex;
+    }
+  
+    #mobilemenu {
+      display: none;
+    }
+    #logoMobile {
+      color: #ffffff;
+      display: none;
+      flex-flow: row nowrap;
+      margin: 0 auto;
+      max-width: 30%;
+      text-decoration: none;
+    }
+    
+  } 
+  
   @media (min-width: 1000px) {
     .content {
       margin-top: 2rem;
