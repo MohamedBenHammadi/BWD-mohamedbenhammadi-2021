@@ -13,13 +13,13 @@
 * Op deze website heb ik een hamburgermenu code  gebruikt voor mijn website
  * https://codepen.io/erikterwan/pen/EVzeRP
 
- * Op deze website heb ik deze template gebruikt voor mijn website 
+* Op deze website heb ik deze template gebruikt voor mijn website 
   * https://bootstrapmade.com/regna-bootstrap-onepage-template/
 
- * oprmerking: Er zijn ook screenschots genomen van andere templates in de map tempalte.
+* oprmerking: Er zijn ook screenschots genomen van andere templates in de map template.
 
- * Voor de rest heb ik vaak de technieken van Meneer Rogier van der linde gebruikt (zie youtube kanaal)
-    *  https://www.youtube.com/channel/UCmew_0ZKkoDz9d9tK5TL2Fw
+* Voor de rest heb ik vaak de technieken van Meneer Rogier van der linde gebruikt (zie youtube kanaal)
+  *  https://www.youtube.com/channel/UCmew_0ZKkoDz9d9tK5TL2Fw
 
 
 
